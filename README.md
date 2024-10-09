@@ -7,6 +7,8 @@
 
 ## Rôles de chaque membre
 ### Sprint 1
+- Product Owner : Anthony
+- Scrum Master : P.A.
 
 ### Sprint 2
 
