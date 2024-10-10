@@ -1,9 +1,12 @@
 # Base de données chiffrée avec KeePass
+<p align="center">
+  <img src="https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePass.jpg?raw=true" alt="Logo KeePass" width="200"/>  
+  <img src="https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePassXC.jpg?raw=true" alt="Logo KeePassXC" width="200"/>
+</p>
 
 ## Présentation du Projet
 
-Ce projet a pour objectif de mettre en place une solution de gestion de mots de passe centralisée, sécurisée et accessible à partir de plusieurs systèmes d'exploitation. L'idée est d'héberger une base de données chiffrée sur un **serveur Windows Server 2022**, tout en permettant aux utilisateurs, sous **Windows** ou **Ubuntu**, d'y accéder de manière sécurisée grâce à l'application **KeePass**.  
-![Logo KeePass](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePass.jpg)![Logo KeePassXC](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePassXC.jpg)
+Ce projet a pour objectif de mettre en place une solution de gestion de mots de passe centralisée, sécurisée et accessible à partir de plusieurs systèmes d'exploitation. L'idée est d'héberger une base de données chiffrée sur un serveur [**Windows Server 2022**](https://www.microsoft.com/fr-fr/windows-server), tout en permettant aux utilisateurs, sous [**Windows 10**](https://www.microsoft.com/fr-fr/software-download/windows10) ou [**Ubuntu 24**](https://www.ubuntu-fr.org/), d'y accéder de manière sécurisée grâce à l'application [**KeePass**](https://keepass.info/).
 
 ### Objectifs
 
@@ -15,7 +18,7 @@ Ce projet a pour objectif de mettre en place une solution de gestion de mots de 
 
 ## Introduction et Contexte
 
-Dans un environnement où la sécurité des informations sensibles est une priorité, la gestion centralisée des mots de passe devient une nécessité. KeePass, un gestionnaire de mots de passe open-source, permet de créer une base de données chiffrée qui peut être partagée entre plusieurs utilisateurs, tout en assurant un haut niveau de sécurité grâce à des technologies de chiffrement robustes (comme AES-256).
+Dans un environnement où la sécurité des informations sensibles est une priorité, la gestion centralisée des mots de passe devient une nécessité. KeePass, un gestionnaire de mots de passe [open-source](https://fr.wikipedia.org/wiki/Open_source), permet de créer une base de données chiffrée qui peut être partagée entre plusieurs utilisateurs, tout en assurant un haut niveau de sécurité grâce à des technologies de chiffrement robustes (comme [AES-256](https://www.malekal.com/quest-ce-que-le-chiffrement-aes-et-comment-ca-marche/)).
 
 Le projet consiste à implémenter cette solution dans un environnement multi-système, avec un **serveur** Windows centralisé pour l’hébergement de la base de données, et des **clients** sous différents systèmes d'exploitation pouvant accéder à cette base. Ce modèle vise à offrir une gestion centralisée et sécurisée des identifiants et des mots de passe, tout en permettant aux utilisateurs d'accéder à cette base à distance et de manière sécurisée, quelle que soit leur système d'exploitation.
 
