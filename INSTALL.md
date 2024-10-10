@@ -113,3 +113,157 @@ ___
 
 - Redémarrer une dernière fois la machine pour prendre en compte tous les changements effectués.
 - Votre machine est prête à être mise en réseau. Dans les étapes suivantes, nous installerons le logiciel KeePass et détaillerons le partage de fichier nécessaire pour un accès client.
+
+
+
+# Etapes d'installation et configuration Windows 10
+
+
+### Choix des langues
+
+
+![[langue.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/langue.png)
+
+- Une fois que le PC démarre, la première étape consiste à choisir vos préférences linguistiques.
+- Puis cliquez sur installer maintenant.
+
+## Licence et version de Windows
+
+Une fenêtre Activer Windows s'ouvre alors et plusieurs options sont possibles : soit vous avez une clé produit (licence) et n'avez qu'à entrer son code
+Une clé de produit est un code de 25 chiffres qui se présente sous la forme suivante :
+
+CLÉ DE PRODUIT : XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+
+Pendant l’installation, vous êtes invité à entrer une clé de produit.
+
+
+
+### Lancer l'installation
+
+
+![[choix os.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/choix%20os.png)
+
+Sélectionnez ensuite la version de Windows qui vous convient, Windows Famille étant le choix recommandé pour les particuliers.
+
+Acceptez les termes du contrat
+
+
+### Choix de la destination de l'installation
+
+
+![[installation disque.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/installation%20disque.png)
+
+
+Choisissez ensuite Personnalisé : installer uniquement Windows (avancé).
+
+
+![[espace alloué.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/espace%20allou%C3%A9.png)
+
+À la demande *Où souhaitez-vous installer Windows ?”*, plusieurs options sont possibles :
+
+- Si votre disque est vide, sélectionnez-le et cliquez sur Suivant  
+- S'il ne l'est pas, choisissez le lecteur principal et cliquez sur Formater, puis Suivant (attention, vous perdrez les données du lecteur en question, ce qui ne devrait normalement pas poser de problème).
+
+
+![[instal.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/instal.png)
+
+L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'achève.
+
+
+## Configurer Windows 10
+
+
+### Choix des langues
+
+
+
+![[choix langue 2.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/choix%20langue%202.png)
+
+- Sélectionnez votre pays.
+
+
+![[clavier.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/clavier.png)
+
+- puis votre disposition de clavier.
+
+
+![[clavier secondaire.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/clavier%20secondaire.png)
+
+- et éventuellement une seconde disposition.
+
+
+
+![[ajout compte.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/ajout%20compte.png)
+
+- L'étape suivante exige la création d'un compte Microsoft ou, le cas échéant, de s'identifier avec celui dont vous disposez. Cliquez sur *compte hors connexion* pour s'en affranchir.
+
+
+
+![[nom utilisateur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/nom%20utilisateur.png)
+
+- Créer votre nom d'utilisateur et cliquez sur suivant.
+
+
+
+![[mot de passe.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/mot%20de%20passe.png)
+
+
+- Définissez un mot de passe pour votre ordinateur.
+
+-  Il faudra ensuite choisir si vous souhaiter activer différents services.
+- Windows prend enfin quelques minutes pour se configurer.
+- Passé ces minutes, le Bureau de Windows 10 s'affiche et l'ordinateur est prêt à être utilisé.
+
+
+### Configuration du poste client
+
+
+![[adittion invité.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/adittion%20invit%C3%A9.png)
+
+- Dans l'onglet Périphériques de VirtualBox, insérer l'image CD des Additions invité.
+
+
+![[localisation .exe guest.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/localisation%20.exe%20guest.png)
+
+- Chercher ensuite le lecteur créer VirtualBox Guest Additions et sélectionner a l'intérieur l'exécutable VBoxWindowsAdditions. Ensuite appuyé sur next et installer et Windows redémarrera automatiquement.
+
+
+### Configuration réseau
+
+
+
+![[réseau 1.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%201.png)
+
+- cliquez sur **Réseau et Internet** depuis les paramètres de Windows 10
+
+
+![[réseau 2.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%202.png)
+
+- Cliquez sur *Modifier les options d'adaptateur*
+
+
+![[réseau 3.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%203.png)
+
+- Cliquez sur les propriétés de votre carte réseau.
+
+
+![[réseau 4.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%204.png)
+
+- double cliquez sur *Protocole Internet version 4* 
+
+
+![[réseau 5.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%205.png)
+
+- Cliquez sur *Utilisez l'adresse IP suivante* et insérez l'adresse ip. ainsi que le masque de sous réseau fournit.
+
+
+### Connexion au serveur
+
+
+- Dans les paramètres, cliquez sur *Réseau et Internet* , *accès à distance* puis sur *centre Réseau et partage*.
+- Cliquez sur *Modifier les paramètres de partage avancés* et vérifié que la Recherche réseau et le partage de fichiers, d'imprimante et le Partage protégé par mot de passe soit activés.
+
+- Ensuite ouvrez l'explorateur de fichiers et tapez l'adresse du serveur avec le nom du dossier comme dans la démonstration ci dessous.
+-
+- ![[accès serveur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/acc%C3%A8s%20serveur.png)
+- 
