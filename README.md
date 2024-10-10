@@ -47,7 +47,7 @@ Le projet consiste à implémenter cette solution dans un environnement multi-sy
    4. **Accès Client-Serveur**
 
 - **Choix :** Partage de fichiers (172.16.10.10/24).
-- **Explication :** Les clients accéderont à la base de données chiffrée via le partage de fichiers sur un réseau. Cela permet aux utilisateurs d'ouvrir la base de données en toute sécurité.
+- **Explication :** Les clients accéderont à la base de données chiffrée via le partage de fichiers sur un réseau. Cette méthode a été choisie car nous avons un seul fichier de base de données à gérer, ce qui rend cette approche plus simple et rapide à utiliser. Elle permet également aux utilisateurs d'accéder à la base de données en toute sécurité sans nécessiter de configuration complexe.
 
 ## Difficultés / Solutions
 
