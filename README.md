@@ -3,7 +3,7 @@
 ## Présentation du Projet
 
 Ce projet a pour objectif de mettre en place une solution de gestion de mots de passe centralisée, sécurisée et accessible à partir de plusieurs systèmes d'exploitation. L'idée est d'héberger une base de données chiffrée sur un **serveur Windows Server 2022**, tout en permettant aux utilisateurs, sous **Windows** ou **Ubuntu**, d'y accéder de manière sécurisée grâce à l'application **KeePass**.  
-![Logo KeePass](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePass.jpg)
+![Logo KeePass](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePass.jpg)![Logo KeePassXC](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePassXC.jpg)
 
 ### Objectifs
 
