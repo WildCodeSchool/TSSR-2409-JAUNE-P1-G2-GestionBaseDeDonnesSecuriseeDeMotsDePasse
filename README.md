@@ -29,6 +29,26 @@ Le projet consiste à implémenter cette solution dans un environnement multi-sy
 
 ## Choix techniques
 
+   1. **Cryptage et Gestion de la Base de Données**
+
+- **Choix :** Application de mots de passe KeePass.
+- **Explication :** Pour créer une base de données chiffrée, nous allons utiliser **KeePass**. KeePass utilise un algorithme de cryptage puissant comme **AES (clé de 256 bits)** et **TwoFish (clé de 256 bits + blocs de 128 bits)** pour sécuriser la base de données. Les mots de passe seront stockés dans cette base de données et conservés sous forme de fichier chiffré sur le serveur.
+  
+   2. **Plateforme Serveur**
+
+- **Choix :** Windows Server 2022. (**SRVWIN01**)
+- **Explication :** La base de données sera hébergée sur **Windows Server 2022**. Le serveur sera configuré avec des mesures de sécurité appropriées pour permettre l'accès des clients.
+  
+   3. **Plateformes Clients**
+
+- **Choix :** Différents systèmes d'exploitation (Windows, Ubuntu).
+- **Explication :** La base de données KeePass sera accessible depuis plusieurs systèmes d'exploitation. Chaque système pourra utiliser KeePass ou KeePassXC (Ubuntu).
+  
+   4. **Accès Client-Serveur**
+
+- **Choix :** Partage de fichiers (172.16.10.10/24).
+- **Explication :** Les clients accéderont à la base de données chiffrée via le partage de fichiers sur un réseau. Cela permet aux utilisateurs d'ouvrir la base de données en toute sécurité.
+
 ## Difficultés / Solutions
 
 ## Suggestions d'amélioration
