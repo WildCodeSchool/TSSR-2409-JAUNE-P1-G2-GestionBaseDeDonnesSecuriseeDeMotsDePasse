@@ -387,10 +387,6 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 - L'installation est maintenant terminée ! Vous pouvez lancer KeePass et commencer à créer une base de données sécurisée.
   ![Capture d'écran de KeePass ouvert](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(23).png)
 
-Voici le chapitre final avec quelques ajustements mineurs pour améliorer la fluidité et l'orthographe :
-
----
-
 ### 3. Conseils et informations
 
 Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. KeePass propose également plusieurs fonctions avancées qui peuvent vous aider à renforcer encore davantage la sécurité de vos données, telles que :
