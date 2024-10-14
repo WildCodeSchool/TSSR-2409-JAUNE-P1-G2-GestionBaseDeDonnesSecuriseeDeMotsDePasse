@@ -290,4 +290,9 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 - Ensuite ouvrez l'explorateur de fichiers et tapez l'adresse du serveur avec le nom du dossier comme dans la démonstration ci dessous.
 -
 - ![[accès serveur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/acc%C3%A8s%20serveur.png)
-- 
+
+## Configurer Ubuntu
+
+![[etape 1]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/7eee1a7b19e1e0d27e7efcdf1d147485f4b2591e/installation_client_2_Ubuntu/etape%201%20VM.png)
+
+- Cliquez sur "Nouveau" dans VirtualBox et sélectionnez la version d'Ubuntu souhaitée
