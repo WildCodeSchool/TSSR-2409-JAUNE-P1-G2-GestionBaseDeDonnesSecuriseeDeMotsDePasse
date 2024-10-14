@@ -359,24 +359,50 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 
 - Ensuite, ouvrez le Terminal et tapez "ip addr show" comme montré à l'écran, puis tapez "ping 172.16.10.10" pour vérifier la connexion d'Ubuntu au serveur Windows.
 
-# Étapes d'installation et de configuration de KeePass
+# **Étapes d'installation et de configuration de KeePass**
 
-## Pour Windows 10
+## **Pour Windows 10 :**
 
 ### 1. Téléchargement de KeePass
 
 - Rendez-vous sur le [site officiel de KeePass](https://keepass.info/).
-  ![]()
-- Cliquez sur Download à gauche de l'écran ou [suivez ce lien](https://keepass.info/download.html).
-- KeePass est disponible sur Windows, Mac et Linux. Sélectionnez la version Windows.
-  ![]()
-- Un nouvel onglet s'ouvre et après quelques secondes la fenêtre de l'explorateur apparait, vous demandant l'emplacement pour le téléchargement du fichier d'installation (dans mon cas le fichier "KeePass-2.57.1-Setup.exe"). Choisissez l'emplacement et cliquez sur "enregistrer".
+  ![Capture d'écran du site KeePass](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(16).png)
+- Cliquez sur **Download** à gauche de l'écran ou [suivez ce lien](https://keepass.info/download.html).
+- KeePass est disponible pour Windows, Mac et Linux. Sélectionnez la version **Windows**.
+  ![Capture d'écran du téléchargement de KeePass](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(17).png)
+- Un nouvel onglet s'ouvre et après quelques secondes, la fenêtre de l'explorateur apparaît, vous demandant l'emplacement pour télécharger le fichier d'installation (dans mon cas, le fichier "KeePass-2.57.1-Setup.exe"). Choisissez l'emplacement et cliquez sur **Enregistrer**.
+  ![Capture d'écran de l'explorateur](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(18).png)
 
 ### 2. Installation de KeePass
 
-- Attendre la fin du téléchargement puis ouvrez le fichier d'installation (.exe).
-- Une première fenêtre apparait, faites "exécuter" puis "Voulez vous autoriser cette application à apporter des modification sur l'appareil ?", cliquez sur "oui".
-- Selectionnez la langue
-- Lisez et acceptez les termes et conditions.
-- Séléctionnez "installation complète"
-- Enfin cliquez sur "installer".
+- Attendez la fin du téléchargement puis ouvrez le fichier d'installation (**KeePass-2.57.1-Setup.exe**).
+- Une première fenêtre apparaît, cliquez sur **Exécuter**, puis à la question "Voulez-vous autoriser cette application à apporter des modifications sur l'appareil ?", cliquez sur **Oui**.
+- Sélectionnez la langue.
+- Lisez et acceptez les **Termes et Conditions**.
+  ![Capture d'écran des termes et conditions](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(19).png)
+- Sélectionnez **Installation complète**.
+  ![Capture d'écran de l'installation complète](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(20).png)
+- Enfin, cliquez sur **Installer**.
+  ![Capture d'écran du bouton installer](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(22).png)
+- L'installation est maintenant terminée ! Vous pouvez lancer KeePass et commencer à créer une base de données sécurisée.
+  ![Capture d'écran de KeePass ouvert](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/Capture%20d%E2%80%99%C3%A9cran%20(23).png)
+
+Voici le chapitre final avec quelques ajustements mineurs pour améliorer la fluidité et l'orthographe :
+
+---
+
+### 3. Conseils et informations
+
+Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. KeePass propose également plusieurs fonctions avancées qui peuvent vous aider à renforcer encore davantage la sécurité de vos données, telles que :
+
+- **Utilisation de plugins** : Ajoutez des fonctionnalités supplémentaires à KeePass, comme la synchronisation avec des services cloud ou l'intégration de nouveaux formats de mots de passe.
+- **Générateur de mots de passe complexes** : Créez des mots de passe uniques et robustes pour chaque compte, adaptés à vos besoins de sécurité.
+- **Clés matérielles et fichiers clés** : Combinez un mot de passe avec un fichier clé ou une clé USB pour une double authentification renforcée.
+- **Synchronisation de bases de données** : Travaillez en équipe et synchronisez plusieurs bases de données, localement ou à travers des services cloud sécurisés.
+- **Auto-Type** : Automatisez la saisie de vos identifiants sur les sites Web ou applications, tout en évitant les enregistrements potentiellement non sécurisés des navigateurs.
+
+En adoptant ces bonnes pratiques, vous renforcerez la sécurité de vos informations sensibles et gagnerez un temps considérable tout en optimisant l'utilisation de KeePass.
+
+---
+
+## **Pour Ubuntu :**
