@@ -291,8 +291,75 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 -
 - ![[accès serveur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/acc%C3%A8s%20serveur.png)
 
-## Configurer Ubuntu
+# Etapes d'installation et configuration Ubuntu
 
 ![[etape 1]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/7eee1a7b19e1e0d27e7efcdf1d147485f4b2591e/installation_client_2_Ubuntu/etape%201%20VM.png)
 
-- Cliquez sur "Nouveau" dans VirtualBox et sélectionnez la version d'Ubuntu souhaitée
+- Cliquez sur "Nouveau" dans VirtualBox et sélectionnez la version d'Ubuntu souhaitée.
+
+![[etape 2]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/3bc550c67cebfe9d3871b7a91931edb5f8236797/installation_client_2_Ubuntu/etape%202%20VM%20select%20ISO.png)
+
+- Sélectionnez le fichier ISO d'Ubuntu et cliquez dessus.
+
+![[etape 3]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/3bc550c67cebfe9d3871b7a91931edb5f8236797/installation_client_2_Ubuntu/etape%203%20VM%20nat%20internal%20network.png)
+
+- Faites un clic droit sur l'Ubuntu dans la VM, allez dans les paramètres, puis sélectionnez les options réseau et choisissez "Réseau interne".
+
+![[etape 4]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%204%20VM%20installation%20ubuntu.png)
+
+- Après avoir démarré Ubuntu, sélectionnez l'option "Try or Install".
+
+![[etape 5]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%205%20VM%20installation%20ubuntu.png)
+
+- Après avoir sélectionné votre langue, cliquez sur "Installer Ubuntu".
+
+![[etape 6]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%206%20VM%20installation%20ubuntu%20language.png)
+
+- Réglez la langue du clavier et les options de disposition du clavier, puis cliquez sur "Continuer".
+
+![[etape 7]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%207%20VM%20installation%20ubuntu%20mises%20%C3%A0%20jour%20et%20autres%20logiciels.png)
+
+- Comme montré sur l'image, sélectionnez l'option d'installation normale et cliquez sur "Continuer".
+
+![[etape 8]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%208%20VM%20installation%20ubuntu%20type%20d'installation%202.png)
+
+- Dans la fenêtre qui apparaît, cliquez sur "Continuer".
+
+![[etape 9]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%209%20VM%20installation%20ubuntu%20type%20d'installation.png)
+
+- Dans la section "Type d'installation", sélectionnez "Effacer le disque et installer Ubuntu" comme montré à l'écran, puis cliquez sur "Installer maintenant".
+
+![[etape 10]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be212307c9b1bdad906620a014a90e8d5d50c459/installation_client_2_Ubuntu/etape%2010%20VM%20installation%20ubuntu%20ou%20etes%20vous.png)
+
+- À cette étape, sélectionnez votre emplacement.
+
+![[etape 11]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2011%20VM%20installation%20ubuntu%20qui%20etes%20vous.png)
+
+- À cette étape, remplissez les informations nécessaires comme montré à l'écran, puis définissez un mot de passe et cliquez sur "Continuer".
+
+![[etape 12]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2012%20VM%20installation%20ubuntu%20installation.png)
+
+- À cette étape, attendez que l'installation se termine, puis la machine redémarrera.
+
+![[etape 13]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2013%20VM%20installation%20ubuntu%20installation%20termin%C3%A9.png)
+
+- Sur l'écran d'accueil, saisissez le mot de passe que vous avez défini lors de l'installation pour vous connecter à Ubuntu.
+
+![[etape 14]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2014%20VM%20installation%20ubuntu%20IPv4%20etape%201.png)
+
+- Sur le bureau, cliquez sur l'icône de réseau en haut à droite. Ensuite, sélectionnez l'Ethernet auquel vous êtes connecté et cliquez sur "Paramètres filaires".
+
+![[etape 15]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2015%20VM%20installation%20ubuntu%20IPv4%20etape%202.png)
+
+- Dans les paramètres qui s'ouvrent, cliquez sur la section "Filaire". Ensuite, entrez l'adresse IP (172.16.10.30) et le masque de réseau (255.255.255.0) comme montré à l'écran. Puis cliquez sur "Appliquer".
+
+![[etape 16]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/aa3f495c43a9f382548513d2fa9ad08fcea4c961/installation_client_2_Ubuntu/etape%2016%20VM%20installation%20ubuntu%20IPv4%20etape%203%20verification%20ip.png)
+
+![[etape 17]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/aa3f495c43a9f382548513d2fa9ad08fcea4c961/installation_client_2_Ubuntu/etape%2017%20VM%20installation%20ubuntu%20IPv4%20etape%204%20verification%20ip%20v2.png)
+
+- Ensuite, ouvrez le Terminal et tapez "ip addr show" comme montré à l'écran, puis tapez "ping 172.16.10.10" pour vérifier la connexion d'Ubuntu au serveur Windows.
+
+-
+
+
+
