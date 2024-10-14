@@ -31,6 +31,30 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 
 ## Etapes d'installation et Configuration Serveur
 ___
+### Configuration VM
+- Créer une nouvelle machine virtuelle.
+- La renommer **SRVWIN**, le nom que l'on donnera à notre machine lors de l'installation ;
+
+	![vmname](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmname.png)
+
+- Ne surtout **PAS** ajouter de CDRom d'installation à cette étape et laisser les paramètres de l'onglet "unattended install" par défaut ;
+- Ajouter un total de **2 CPU** et minimum **2 Go de RAM** ;
+
+ 	![vmcpu](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcpu.png)
+
+- Configurer le stockage sur un minimum de **40 Go** ;
+
+	![vmstock](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmstock.png)
+
+- Valider puis aller dans la configuration de la machine virtuelle.
+- Dans l'onglet Stockage, ajouter le .iso correspondant au CDRom d'installation de **Windows Server 2022** ;
+
+	![vmcd](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcd.png)
+
+- Dans l'onglet Réseau, ajouter, en plus de l'adaptateur réseau NAT, un deuxième **adaptateur en Réseau interne**, connecté au *même réseau interne* que les futures VMs Clients.
+
+	![vmnet](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmnet.png)
+
 ### Choix linguistiques
 
 ![TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/Install Server
