@@ -296,3 +296,25 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 ![[etape 1]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/7eee1a7b19e1e0d27e7efcdf1d147485f4b2591e/installation_client_2_Ubuntu/etape%201%20VM.png)
 
 - Cliquez sur "Nouveau" dans VirtualBox et sélectionnez la version d'Ubuntu souhaitée
+
+# Étapes d'installation et de configuration de KeePass
+
+## Pour Windows 10
+
+### 1. Téléchargement de KeePass
+
+- Rendez-vous sur le [site officiel de KeePass](https://keepass.info/).
+  ![]()
+- Cliquez sur Download à gauche de l'écran ou [suivez ce lien](https://keepass.info/download.html).
+- KeePass est disponible sur Windows, Mac et Linux. Sélectionnez la version Windows.
+  ![]()
+- Un nouvel onglet s'ouvre et après quelques secondes la fenêtre de l'explorateur apparait, vous demandant l'emplacement pour le téléchargement du fichier d'installation (dans mon cas le fichier "KeePass-2.57.1-Setup.exe"). Choisissez l'emplacement et cliquez sur "enregistrer".
+
+### 2. Installation de KeePass
+
+- Attendre la fin du téléchargement puis ouvrez le fichier d'installation (.exe).
+- Une première fenêtre apparait, faites "exécuter" puis "Voulez vous autoriser cette application à apporter des modification sur l'appareil ?", cliquez sur "oui".
+- Selectionnez la langue
+- Lisez et acceptez les termes et conditions.
+- Séléctionnez "installation complète"
+- Enfin cliquez sur "installer".
