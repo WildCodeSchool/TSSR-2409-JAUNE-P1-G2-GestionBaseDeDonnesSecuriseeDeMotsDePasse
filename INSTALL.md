@@ -402,3 +402,41 @@ En adoptant ces bonnes pratiques, vous renforcerez la sécurité de vos informat
 ---
 
 ## **Pour Ubuntu :**
+
+### 1. Téléchargement de KeePass
+
+- Ouvrez un terminal en appuyant sur `Ctrl + Alt + T`.
+- Mettez à jour la liste des paquets :
+
+```bash
+sudo apt update
+```
+![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/1.png)
+
+Installez KeePass en exécutant la commande suivante :
+
+```bash
+sudo apt install keepass2 -y
+```
+![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/2.png)
+
+### 2. Lancement de KeePass
+
+Une fois l'installation terminée, vous pouvez lancer KeePass en recherchant "KeePass" dans le menu des applications ou en exécutant la commande suivante dans le terminal :
+
+```bash
+keepass2
+```
+![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/3.png)
+
+### 3. Conseils et informations
+
+Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. KeePass propose également plusieurs fonctions avancées qui peuvent vous aider à renforcer encore davantage la sécurité de vos données, telles que :
+
+- **Utilisation de plugins** : Ajoutez des fonctionnalités supplémentaires à KeePass, comme la synchronisation avec des services cloud ou l'intégration de nouveaux formats de mots de passe.
+- **Générateur de mots de passe complexes** : Créez des mots de passe uniques et robustes pour chaque compte, adaptés à vos besoins de sécurité.
+- **Clés matérielles et fichiers clés** : Combinez un mot de passe avec un fichier clé ou une clé USB pour une double authentification renforcée.
+- **Synchronisation de bases de données** : Travaillez en équipe et synchronisez plusieurs bases de données, localement ou à travers des services cloud sécurisés.
+- **Auto-Type** : Automatisez la saisie de vos identifiants sur les sites Web ou applications, tout en évitant les enregistrements potentiellement non sécurisés des navigateurs.
+
+En adoptant ces bonnes pratiques, vous renforcerez la sécurité de vos informations sensibles et gagnerez un temps considérable tout en optimisant l'utilisation de KeePass.
