@@ -1,7 +1,6 @@
 # Base de données chiffrée avec KeePass
 <p align="center">
   <img src="https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePass.jpg?raw=true" alt="Logo KeePass" width="200"/>  
-  <img src="https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/Install%20Server/LogoKeePassXC.jpg?raw=true" alt="Logo KeePassXC" width="200"/>
 </p>
 
 ## Présentation du Projet
