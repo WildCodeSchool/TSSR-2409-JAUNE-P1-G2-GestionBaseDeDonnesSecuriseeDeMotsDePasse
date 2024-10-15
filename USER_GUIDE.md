@@ -42,6 +42,37 @@
 - **Étape 10** : Sélectionnez les critères du mot de passe (longueur, lettres, chiffres, symboles, etc.).
 
 --------------------------------------------------------------------------------------------
+# Utilisation avancée de KeePass
+
+L'utilisation des fonctionnalités avancées de KeePass vous permet de gagner un temps précieux tout en renforçant la sécurité de vos informations sensibles. Ces outils optimisent votre efficacité au quotidien.
+
+**[Raccourcis clavier utiles](https://keepass.info/help/kb/keyb_shortcuts.html) :**
+
+1. **Ctrl + K** : Ce raccourci vous permet de faire apparaître la fenêtre de KeePass rapidement, ce qui est pratique lorsque vous avez besoin d'y accéder dans un navigateur.
+2. **Ctrl + I** : Très utile pour créer une nouvelle entrée dans le dossier sélectionné.
+3. **Ctrl + F** : Ouvre une fenêtre de recherche pour retrouver rapidement une entrée.
+4. **Ctrl + Alt + A** : Le plus utile de tous lors de la connexion à un site. Placez le curseur dans le champ "identifiant", et cette commande entrera automatiquement vos identifiants de connexion à une vitesse inégalée.
+
+**[Auto-Type](https://keepass.info/help/base/autotype.html)** : Auto-Type automatise la saisie de vos identifiants sur les sites Web et les applications. En configurant des raccourcis pour chaque entrée, KeePass peut reproduire vos informations d’identification de manière rapide et sécurisée, limitant ainsi les erreurs de saisie.
+1. a
+2. a
+3. a
+4. a
+5. a
+
+**Date d'expiration** : KeePass permet de définir une date d'expiration pour chaque mot de passe ou groupe, vous rappelant ainsi de les mettre à jour régulièrement pour plus de sécurité.
+1. a
+2. a
+3. a
+4. a
+5. a
+
+**[Plug-ins](https://keepass.info/plugins.html#browserimporter)** : Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vos besoins. Par exemple, "KeePassBrowserImporter" vous permet d'importer vos mots de passe depuis vos navigateurs.
+1. a
+2. a
+3. a
+4. a
+5. a
 
 # FAQ - Keepass
 
