@@ -239,6 +239,15 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 - Passé ces minutes, le Bureau de Windows 10 s'affiche et l'ordinateur est prêt à être utilisé.
 
 
+### Pare-feu
+
+Dans le but de créer une liaison simple avec le serveur, il faut désactiver les pare-feu. Pour ce faire, taper pare-feu dans la barre de recherche du bureau, et selectionner *pare-feu Windows defender*. Puis selectionner *Activer ou désactiver le Pare-feu Windows Defender*, et désactiver les pare-feu de réseaux privés et publics.
+
+
+![[pareu feu.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/pareu%20feu.png)
+
+
+
 ### Configuration du poste client
 
 
