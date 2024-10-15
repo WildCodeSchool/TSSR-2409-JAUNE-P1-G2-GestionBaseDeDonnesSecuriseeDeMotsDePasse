@@ -52,8 +52,17 @@ Le projet consiste à implémenter cette solution dans un environnement multi-sy
 - **Choix :** Partage de fichiers (172.16.10.10/24).
 - **Explication :** Les clients accéderont à la base de données chiffrée via le partage de fichiers sur un réseau. Cette méthode a été choisie car nous avons un seul fichier de base de données à gérer, ce qui rend cette approche plus simple et rapide à utiliser. Elle permet également aux utilisateurs d'accéder à la base de données en toute sécurité sans nécessiter de configuration complexe.
 
-## Difficultés / Solutions
+## Tableau Difficultés / Solutions
+
+| Difficultés rencontrées                                                                                                                                                                                                                           | Solutions envisagées                                                                                                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Partage de fichier**<br>Pour la réalisation du projet, un fichier devait être partagé entre un serveur et plusieurs clients.                                                                                                                    | - Windows : Monter le répertoire partagé via un connecteur réseau. <br><br>- Linux : Monter le répertoire partagé en graphique via *smb*.                                                                                                                                                                                 |
+| **Communication entre les ordinateurs**<br>Les clients ne parvenaient pas toujours à communiquer avec le serveur.                                                                                                                                 | - Assurer la configuration des adresses IPv4.<br>- Assurer la bonne nomination des machines.<br>- Assurer que les VMs soient bien connectées en réseau interne au **même** réseau<br>- Vérifier la désactivation des pare-feux.<br>- Activer la découverte de réseaux.<br>- Activer le partage de fichiers..              |
+| **Montage du répertoire partagé au démarrage du client Ubuntu**<br>Le montage du répertoire partagé est effectif et l'objectif du projet atteint mais celui-ci a besoin d'être monté de nouveau à chaque ouverture de session utilisateur Ubuntu. | - Intégration d'un script de montage au démarrage avec un fichier *crontab*<br>- Utilisation de l'extension *Autofs*<br>- Ajout d'un script de montage parmi les services lancés au démarrage via le *systemd*<br><br>Aucune de ces tentatives n'a offert de résultat satisfaisant faute de maîtrise des outils proposés. |
 
 ## Suggestions d'amélioration
+- Automatiser le montage du répertoire partagé sur le client Ubuntu ;
+- Sécuriser l'accès à la base de données partagée en utilisant un login de service pour le montage du répertoire partagé ;
+- Affiner les droits sur la base de données partagée selon les besoins (Lecture et Exécution peuvent être suffisants) ;
 
 ## Conclusion
