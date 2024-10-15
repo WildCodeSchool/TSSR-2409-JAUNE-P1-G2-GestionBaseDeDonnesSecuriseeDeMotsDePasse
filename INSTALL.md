@@ -449,3 +449,29 @@ Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass
 - **Auto-Type** : Automatisez la saisie de vos identifiants sur les sites Web ou applications, tout en évitant les enregistrements potentiellement non sécurisés des navigateurs.
 
 En adoptant ces bonnes pratiques, vous renforcerez la sécurité de vos informations sensibles et gagnerez un temps considérable tout en optimisant l'utilisation de KeePass.
+
+
+## FAQ
+
+### Pourquoi KeePass essaie-t-il de se connecter à Internet?
+
+KeePass a une option pour vérifier automatiquement les mises à jour à chaque démarrage du programme. Pour vérifier les mises à jour, KeePass télécharge une petite version fichier et compare la version disponible avec la version installée. Aucune information personnelle n'est envoyée au serveur web KeePass.
+
+Les vérifications automatiques de mise à jour sont effectuées de manière inintrusive en arrière-plan. Une notification s'affiche uniquement lorsqu'une mise à jour est disponible. Les mises à jour ne sont pas téléchargées ou installées automatiquement.
+
+Lorsque vous démarrez KeePass pour la première fois, il vous demande si vous souhaitez activer vérifications de mise à jour automatique (recommandé). Ils peuvent être activés/désactivés à tout moment temps d'utilisation de l'option dans 'Outils' → 'Options' → onglet 'Avancé'.
+
+
+### Pourquoi la qualité estimée d'un mot de passe diminue-t-elle soudainement?
+
+Pour estimer la qualité/force d'un mot de passe, KeePass n'utilise pas seulement méthodes statistiques (comme la vérification des plages de caractères utilisées, par exemple répétant des caractères et des différences), il a également une liste intégrée de mots de passe et vérifications courants des modèles. Lorsque vous remplissez un mot de passe commun ou un répétition, la qualité estimée peut baisser.
+
+
+###  Le GUI prend-il en charge les thèmes sombres?
+
+Oui. KeePass prend en charge tous les thèmes système, y compris les thèmes sombres.
+
+- Sous Windows 11, un thème (sombre) peut être sélectionné dans le Paramètres Windows → 'Accessibilité' → 'Thèmes de contraste'.
+- Sous Windows 10, un thème (sombre) peut être sélectionné dans le Paramètres Windows → 'Facilité d'accès' → 'Contraste élevé'.
+- Sous Windows 7, 8 et 8.1, un thème (sombre) peut être sélectionné dans le Panneau de configuration Windows → 'Apparence et personnalisation' → 'Personnalisation'.
+
