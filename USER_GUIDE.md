@@ -41,4 +41,40 @@
 - **Étape 9** : Cliquez sur "Outils", puis "Générateur de mots de passe" pour créer un mot de passe fort.
 - **Étape 10** : Sélectionnez les critères du mot de passe (longueur, lettres, chiffres, symboles, etc.).
 
+--------------------------------------------------------------------------------------------
+
+# FAQ - Keepass
+
+## Q1 : J'ai oublié mon mot de passe principal, que faire ?
+- Si vous avez oublié votre mot de passe principal, il n'est pas possible de le récupérer. Keepass chiffre votre base de données avec ce mot de passe. Il est donc très important de ne jamais l'oublier. Vous pouvez noter votre mot de passe dans un endroit sûr pour éviter ce problème.
+
+## Q2 : Comment synchroniser ma base de données sur plusieurs appareils ?
+- Pour utiliser Keepass sur plusieurs appareils, vous pouvez enregistrer votre fichier .kdbx dans un service de stockage en ligne (comme Google Drive, Dropbox ou OneDrive). Ensuite, vous pouvez accéder au même fichier depuis d'autres appareils. Assurez-vous de toujours utiliser la version la plus récente du fichier.
+
+## Q3 : Puis-je utiliser Keepass sur mon téléphone ?
+- Oui, Keepass a des applications mobiles pour iOS et Android. Sur Android, vous pouvez utiliser "Keepass2Android", et sur iOS, vous pouvez utiliser "Strongbox" ou "Keepass Touch". Vous pouvez également synchroniser votre fichier de base de données via un service cloud.
+
+## Q4 : Que faire si mon fichier de base de données est corrompu ?
+- Si votre fichier .kdbx est corrompu, essayez de restaurer une version sauvegardée. Keepass ne peut pas réparer un fichier corrompu, donc il est conseillé de faire des sauvegardes régulières de votre base de données.
+
+## Q5 : Comment retrouver une ancienne version de ma base de données ?
+- Si vous avez activé les options de sauvegarde dans Keepass, vous pouvez retrouver une ancienne version de votre base de données. De plus, certains services en ligne (comme Dropbox) permettent de restaurer des versions précédentes de vos fichiers pendant un certain temps.
+
+## Q6 : Keepass est-il sécurisé ?
+- Oui, Keepass est très sécurisé. Il utilise un algorithme de chiffrement très fort (AES-256). Mais, il est aussi important de choisir un mot de passe principal sécurisé et de protéger votre fichier de base de données.
+
+## Q7 : Comment utiliser les clés de fichiers en plus du mot de passe principal pour plus de sécurité ?
+- Vous pouvez utiliser une clé de fichier pour ajouter une couche supplémentaire de sécurité à votre base de données. Allez dans "Fichier" > "Charger une clé de fichier" lors de la création de votre base de données. Cette clé de fichier doit être sauvegardée dans un endroit sûr. Elle sera nécessaire à chaque fois que vous voudrez déverrouiller la base de données.
+
+## Q8 : Comment configurer Keepass pour remplir automatiquement les champs de connexion dans les navigateurs ?
+- Keepass peut remplir automatiquement vos identifiants dans les navigateurs grâce à une combinaison de touches. Allez dans "Outils" > "Options" > "Intégration", et configurez les raccourcis clavier pour l’auto-saisie. Par exemple, vous pouvez utiliser `Ctrl + Alt + A` pour remplir automatiquement les champs de nom d'utilisateur et mot de passe sur les sites web.
+
+## Q9 : Comment activer l'authentification à deux facteurs (2FA) avec Keepass ?
+- Keepass peut stocker les codes de récupération et les tokens d’authentification à deux facteurs (2FA). Installez le plugin "KeeOTP" pour ajouter un générateur de codes 2FA dans Keepass. Après l’installation, vous pourrez ajouter un secret OTP (One-Time Password) à chaque entrée pour gérer vos comptes 2FA directement depuis Keepass.
+
+## Q10 : Comment créer et utiliser des groupes dans Keepass ?
+- Vous pouvez organiser vos mots de passe en groupes pour une gestion plus efficace. Cliquez sur "Édition" > "Ajouter un groupe". Vous pouvez ensuite créer des sous-groupes (par exemple, "Travail", "Personnel", "Banques") et y déplacer vos entrées. Cela vous permet de retrouver vos mots de passe plus facilement.
+
+## Q11 : Puis-je utiliser Keepass pour partager des mots de passe en toute sécurité ?
+- Oui, vous pouvez partager une base de données Keepass avec d'autres utilisateurs de manière sécurisée. Assurez-vous que chaque utilisateur a accès au mot de passe principal et/ou à la clé de fichier utilisée pour sécuriser la base de données. Il est recommandé d'utiliser une plateforme sécurisée pour transférer la base de données (.kdbx) et de ne jamais envoyer de mots de passe directement par email ou autres canaux non sécurisés.
 
