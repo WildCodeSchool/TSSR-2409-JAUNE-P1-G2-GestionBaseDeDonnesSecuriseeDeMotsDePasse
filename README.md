@@ -67,5 +67,3 @@ Le projet consiste à implémenter cette solution dans un environnement multi-sy
 - Automatiser le montage du répertoire partagé sur le client Ubuntu ;
 - Sécuriser l'accès à la base de données partagée en utilisant un login de service pour le montage du répertoire partagé ;
 - Affiner les droits sur la base de données partagée selon les besoins (Lecture et Exécution peuvent être suffisants) ;
-
-## Conclusion
