@@ -297,8 +297,8 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 - Cliquez sur *Modifier les paramètres de partage avancés* et vérifié que la Recherche réseau et le partage de fichiers, d'imprimante et le Partage protégé par mot de passe soit activés.
 
 - Ensuite ouvrez l'explorateur de fichiers et tapez l'adresse du serveur avec le nom du dossier comme dans la démonstration ci dessous.
--
-- ![[accès serveur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/acc%C3%A8s%20serveur.png)
+  
+ ![[accès serveur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/acc%C3%A8s%20serveur.png)
 
 # Etapes d'installation et configuration Ubuntu
 
