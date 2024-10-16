@@ -108,17 +108,14 @@ Si vous avez oublié votre mot de passe principal, il n'est pas possible de le r
 ## Q2 : Comment synchroniser ma base de données sur plusieurs appareils ?
 Pour utiliser KeePass sur plusieurs appareils, enregistrez votre fichier .kdbx dans un service de stockage en ligne comme Google Drive, Dropbox ou OneDrive. Cela vous permettra d'accéder au même fichier depuis d'autres appareils, en vous assurant d'utiliser la version la plus récente.
 
-## Q3 : Puis-je utiliser KeePass sur mon téléphone ?
-Oui, KeePass dispose d'applications pour iOS et Android. Sur Android, utilisez "KeePass2Android", et sur iOS, optez pour "Strongbox" ou "KeePass Touch". Vous pouvez synchroniser votre base de données via un service cloud.
-
-## Q4 : Que faire si mon fichier de base de données est corrompu ?
+## Q3 : Que faire si mon fichier de base de données est corrompu ?
 Si votre fichier .kdbx est corrompu, essayez de restaurer une version sauvegardée. KeePass ne peut pas réparer un fichier corrompu, il est donc recommandé de faire des sauvegardes régulières de votre base de données.
 
-## Q5 : Comment utiliser les clés de fichiers pour renforcer la sécurité ?
+## Q4 : Comment utiliser les clés de fichiers pour renforcer la sécurité ?
 Pour ajouter une couche de sécurité supplémentaire, vous pouvez utiliser une clé de fichier. Allez dans "Fichier" > "Charger une clé de fichier" lors de la création de votre base de données et conservez-la en lieu sûr, car elle est nécessaire pour déverrouiller la base.
 
-## Q6 : Comment organiser mes mots de passe dans KeePass ?
+## Q5 : Comment organiser mes mots de passe dans KeePass ?
 Vous pouvez organiser vos mots de passe en groupes pour une gestion plus efficace. Cliquez sur "Édition" > "Ajouter un groupe" et créez des sous-groupes (par exemple, "Travail", "Personnel", "Banques") pour retrouver facilement vos mots de passe.
 
-## Q7 : Puis-je partager des mots de passe en toute sécurité ?
-Oui, vous pouvez partager une base de données KeePass avec d'autres utilisateurs. Assurez-vous que chaque utilisateur a accès au mot de passe principal et/ou à la clé de fichier. Utilisez des méthodes sécurisées pour transférer la base de données (.kdbx) sans envoyer de mots de passe par des canaux non sécurisés.
+## Q6 : Puis-je partager des mots de passe en toute sécurité ?
+Oui, vous pouvez partager une base de données KeePass avec d'autres utilisateurs. Assurez-vous que chaque utilisateur a accès au mot de passe principal ou à la clé de fichier. Utilisez des méthodes sécurisées pour transférer la base de données (.kdbx) sans envoyer de mots de passe par des canaux non sécurisés.
