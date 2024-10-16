@@ -44,35 +44,61 @@
 --------------------------------------------------------------------------------------------
 # Utilisation avancée de KeePass
 
-L'utilisation des fonctionnalités avancées de KeePass vous permet de gagner un temps précieux tout en renforçant la sécurité de vos informations sensibles. Ces outils optimisent votre efficacité au quotidien.
+L'utilisation des fonctionnalités avancées de KeePass permet de gagner un temps précieux tout en renforçant la sécurité de vos informations sensibles. Ces outils optimisent votre efficacité au quotidien.
 
-**[Raccourcis clavier utiles](https://keepass.info/help/kb/keyb_shortcuts.html) :**
+### [Raccourcis clavier utiles](https://keepass.info/help/kb/keyb_shortcuts.html) :
 
-1. **Ctrl + K** : Ce raccourci vous permet de faire apparaître la fenêtre de KeePass rapidement, ce qui est pratique lorsque vous avez besoin d'y accéder dans un navigateur.
+1. **Ctrl + K** : Ce raccourci permet de faire apparaître rapidement la fenêtre de KeePass, pratique lorsque vous en avez besoin dans un navigateur.
 2. **Ctrl + I** : Très utile pour créer une nouvelle entrée dans le dossier sélectionné.
 3. **Ctrl + F** : Ouvre une fenêtre de recherche pour retrouver rapidement une entrée.
-4. **Ctrl + Alt + A** : Le plus utile de tous lors de la connexion à un site. Placez le curseur dans le champ "identifiant", et cette commande entrera automatiquement vos identifiants de connexion à une vitesse inégalée.
+4. **Ctrl + Alt + A** : Le plus utile de tous lors de la connexion à un site. Placez le curseur dans le champ "identifiant", et cette commande saisira automatiquement vos identifiants de connexion avec une grande rapidité.
 
-**[Auto-Type](https://keepass.info/help/base/autotype.html)** : Auto-Type automatise la saisie de vos identifiants sur les sites Web et les applications. En configurant des raccourcis pour chaque entrée, KeePass peut reproduire vos informations d’identification de manière rapide et sécurisée, limitant ainsi les erreurs de saisie.
-1. a
-2. a
-3. a
-4. a
-5. a
+Certains raccourcis peuvent être personnalisés dans les options du logiciel.
+![image des raccourcis clavier](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/raccourcis.png)
 
-**Date d'expiration** : KeePass permet de définir une date d'expiration pour chaque mot de passe ou groupe, vous rappelant ainsi de les mettre à jour régulièrement pour plus de sécurité.
-1. a
-2. a
-3. a
-4. a
-5. a
+### [Auto-Type](https://keepass.info/help/base/autotype.html) : 
 
-**[Plug-ins](https://keepass.info/plugins.html#browserimporter)** : Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vos besoins. Par exemple, "KeePassBrowserImporter" vous permet d'importer vos mots de passe depuis vos navigateurs.
-1. a
-2. a
-3. a
-4. a
-5. a
+Auto-Type automatise la saisie de vos identifiants sur les sites Web et les applications. En configurant des séquences de frappes personnalisées, KeePass peut reproduire vos informations d’identification rapidement et en toute sécurité, tout en s'adaptant à la configuration du site. Cela limite ainsi les erreurs de saisie. La commande par défaut pour Auto-Type est **Ctrl + Alt + A**, mais elle est personnalisable.
+
+**Pour personnaliser vos séquences de frappes :**
+
+1. Double-cliquez sur l'entrée souhaitée, rendez-vous dans l'onglet "Saisie automatique", sélectionnez "Remplacer la séquence de frappes par défaut", puis cliquez sur "Éditer".
+![image de l'édition d'Auto-Type](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/autotype.png)
+2. À partir de là, presque toutes les combinaisons de frappes sont possibles ! Par exemple, j'ai remplacé `{TAB}` par `{ENTER}{DELAY 1500}`. Cette séquence est très pratique sur Google, où le mot de passe n'est accessible qu'après avoir entré l'identifiant, d'où le délai de 1500 ms.
+![image d'un exemple de séquence Auto-Type](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/autotype.png)
+
+### Date d'expiration :
+
+KeePass permet de définir une date d'expiration pour chaque mot de passe ou groupe, vous rappelant ainsi de les mettre à jour régulièrement pour plus de sécurité.
+
+1. Double-cliquez sur l'entrée concernée, activez l'expiration en bas à gauche de la fenêtre, puis sélectionnez une date.
+![image de l'activation d'une expiration](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationentr%C3%A9e2.png)
+
+- Ou choisissez un délai d'expiration.
+![image de l'édition d'un délai d'expiration](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationentr%C3%A9e3.png)
+
+- Lorsque l'entrée sera expirée, KeePass vous le signalera.
+![image d'une entrée expirée](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/ExpirationEntr%C3%A9e4.png)
+
+2. Vous pouvez choisir une date d'expiration pour un groupe lors de sa création, mais cela ne sera plus possible après.
+![image de l'expiration d'un groupe](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationgroupe.png)
+
+### [Plug-ins](https://keepass.info/plugins.html#browserimporter) :
+
+Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vos besoins. Par exemple, le plug-in "KeePassBrowserImporter" permet d'importer vos mots de passe depuis vos navigateurs.
+
+1. Cliquez sur le lien ci-dessus, installez le plug-in et copiez-le à la racine du dossier KeePass (par défaut : `C:\Program Files\KeePass Password Safe 2`).
+![image de l'installation du plug-in](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin.png)
+
+2. Pour l'utiliser, cliquez sur Fichier, puis sur Importer.
+![image du menu d'importation](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin2.png)
+
+3. Descendez tout en bas dans la section "Navigateur" et choisissez "Generic Browser Importer".
+![image de l'importateur de navigateur](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin3.png)
+
+4. Sélectionnez votre navigateur, vérifiez les options (en particulier si un mot de passe est requis), et cliquez sur "Start".
+![image du lancement de l'importation](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin4.png)
+---
 
 # FAQ - KeePass
 
