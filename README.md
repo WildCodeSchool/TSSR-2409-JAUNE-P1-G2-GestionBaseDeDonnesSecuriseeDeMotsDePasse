@@ -10,26 +10,28 @@ Ce projet a pour objectif de mettre en place une solution de gestion de mots de 
 ### Objectifs
 
 - **Objectif principal** :
-  - Créer une base de données chiffrée et sécurisée par une clé, accessible à partir de plusieurs clients via le logiciel KeePass.
+  - Créer une base de données chiffrée et sécurisée par une clé, qui sera accessible à partir de plusieurs clients via le logiciel KeePass.
   - Le serveur hébergeant la base de données est un **Windows Server 2022**.
-  - Les clients qui accéderont à cette base de données seront sous **Windows 10**
+  - Les clients qui accéderont à cette base de données seront sous **Windows 10**.
   
-- **Objectif secondaire** : Tester l’accès depuis un second client utilisant un système d’exploitation **Ubuntu22** ou **Ubuntu24** pour valider la compatibilité multi-plateforme.
+- **Objectif secondaire** : Tester l’accès depuis un second client utilisant un système d’exploitation **Ubuntu 22** pour valider la compatibilité multi-plateforme.
 
 ## Introduction et Contexte
 
 Dans un environnement où la sécurité des informations sensibles est une priorité, la gestion centralisée des mots de passe devient une nécessité. KeePass, un gestionnaire de mots de passe [open-source](https://fr.wikipedia.org/wiki/Open_source), permet de créer une base de données chiffrée qui peut être partagée entre plusieurs utilisateurs, tout en assurant un haut niveau de sécurité grâce à des technologies de chiffrement robustes (comme [AES-256](https://www.malekal.com/quest-ce-que-le-chiffrement-aes-et-comment-ca-marche/)).
 
-Le projet consiste à implémenter cette solution dans un environnement multi-système, avec un **serveur** Windows centralisé pour l’hébergement de la base de données, et des **clients** sous différents systèmes d'exploitation pouvant accéder à cette base. Ce modèle vise à offrir une gestion centralisée et sécurisée des identifiants et des mots de passe, tout en permettant aux utilisateurs d'accéder à cette base à distance et de manière sécurisée, quelle que soit leur système d'exploitation.
+Le projet consiste à implémenter cette solution dans un environnement multi-systèmes, avec un **serveur** Windows centralisé pour l’hébergement de la base de données, et des **clients** sous différents systèmes d'exploitation pouvant accéder à cette base. Ce modèle vise à offrir une gestion centralisée et sécurisée des identifiants et des mots de passe, tout en permettant aux utilisateurs d'accéder à cette base à distance et de manière sécurisée, quelle que soit leur système d'exploitation.
 
 ---
 
 ## Rôles de chaque membre
 ### Sprint 1
 - Product Owner : Anthony
-- Scrum Master : P.A.
+- Scrum Master  : P.A.
 
 ### Sprint 2
+- Product Owner : Sam
+- Scrum Master  : Matthias
 
 ## Choix techniques
 
@@ -46,12 +48,12 @@ Le projet consiste à implémenter cette solution dans un environnement multi-sy
 3.  **Plateformes Clients**
 
 - **Choix :** Différents systèmes d'exploitation (Windows, Ubuntu).
-- **Explication :** La base de données KeePass sera accessible depuis plusieurs systèmes d'exploitation. Chaque système pourra utiliser KeePass ou KeePassXC (Ubuntu).
+- **Explication :** La base de données KeePass sera accessible depuis plusieurs systèmes d'exploitation. Chaque système pourra utiliser KeePass.
   
 4.  **Accès Client-Serveur**
 
 - **Choix :** Partage de fichiers (172.16.10.10/24).
-- **Explication :** Les clients accéderont à la base de données chiffrée via le partage de fichiers sur un réseau. Cette méthode a été choisie car nous avons un seul fichier de base de données à gérer, ce qui rend cette approche plus simple et rapide à utiliser. Elle permet également aux utilisateurs d'accéder à la base de données en toute sécurité sans nécessiter de configuration complexe.
+- **Explication :** Les clients accéderont à la base de données chiffrée par le biais d'un partage de fichiers sur le réseau. Cette méthode a été retenue car elle centralise la gestion de la base de données dans un seul fichier, renforçant ainsi la sécurité. De plus, elle offre un accès sécurisé aux utilisateurs sans qu'une configuration complexe ne soit nécessaire.
 
 ## Tableau Difficultés / Solutions
 
