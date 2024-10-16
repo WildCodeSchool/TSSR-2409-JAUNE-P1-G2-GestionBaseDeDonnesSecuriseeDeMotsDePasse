@@ -29,7 +29,7 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 - Il nous faut également le logiciel [Keepass](https://keepass.info/download.html), indispensable pour chiffrer les mots de passe.
 
 
-## Etapes d'installation et Configuration Serveur
+# Etapes d'installation et Configuration Serveur
 ___
 ### Configuration VM
 - Créer une nouvelle machine virtuelle.
@@ -138,11 +138,47 @@ ___
 - Redémarrer une dernière fois la machine pour prendre en compte tous les changements effectués.
 - Votre machine est prête à être mise en réseau. Dans les étapes suivantes, nous installerons le logiciel KeePass et détaillerons le partage de fichier nécessaire pour un accès client.
 
+### Configuration Partage de fichiers
+#### Installer le service de rôle NFS
+
+1. Dans le menu Manage du Gestionnaire de serveur, sélectionnez **Add Roles and Features**.
+
+![manager](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/manager.png)
+
+2. Cliquez sur **Next** sur l’écran de bienvenue.
+3. Sur **Installation Type** , sélectionnez **Role-based or feature-based installation**, puis cliquez sur **Next**.
+
+![installtype](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/installtype.png)
+
+4. Assurez-vous que le serveur cible approprié est sélectionné, puis cliquez sur **Next**.
+5. Développez **File and Storage Services**, puis développez **File and iSCSI Services**.
+6. Sélectionnez **Server for NFS**.
+
+![roles](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/roles.png)
+
+7. Cliquez sur **Add Features** dans la fenêtre d’affichage qui s’affiche, puis cliquez sur **Next** pour continuer.
+
+![ServerforNFS](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/serverfornfs.png)
+
+8. Cliquez à nouveau sur **Next** sur l’écran Features.
+9. Cliquez sur **Install** sur l’écran Confirmation pour commencer l’installation.
+10. Vous pouvez cliquer sur **Close** pendant l’installation ou une fois l’installation terminée.
+
+#### Créer le répertoire partagé
+- Créer un répertoire à l'endroit souhaité ;
+	- C'est dans ce répertoire que sera situé la base de données KeePass ;
+- Entrer dans les propriétés du répertoire et aller dans l'onglet **Sharing** ;
+	- Pensez à bien noter le chemin réseau, il servira par la suite pour les clients ;
+- Cliquer sur **Share** ;
+
+![share](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/share.png)
+
+- Modifier les droits *Everyone* sur **Read** ;
+
+![rights](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/rights.png)
 
 
 # Etapes d'installation et configuration Windows 10
-
-
 ### Choix des langues
 
 
@@ -294,11 +330,19 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 
 
 - Dans les paramètres, cliquez sur *Réseau et Internet* , *accès à distance* puis sur *centre Réseau et partage*.
-- Cliquez sur *Modifier les paramètres de partage avancés* et vérifié que la Recherche réseau et le partage de fichiers, d'imprimante et le Partage protégé par mot de passe soit activés.
+- Cliquez sur *Modifier les paramètres de partage avancés* et vérifiez que la Recherche réseau et le partage de fichiers, d'imprimante et le Partage protégé par mot de passe soit activés.
 
 - Ensuite ouvrez l'explorateur de fichiers et tapez l'adresse du serveur avec le nom du dossier comme dans la démonstration ci dessous.
   
  ![[accès serveur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/acc%C3%A8s%20serveur.png)
+
+### Configuration Partage de fichiers
+- Dans les fichiers Windows, sur la page **Ce PC**, dans l'onglet **Ordinateur**, choisir **Connecter un lecteur réseau** ;
+![connect]()
+- Choisir un lecteur pour monter le répertoire partagé et insérer le chemin réseau du répertoire partagé que l'on a pris en note un peu plus tôt ;
+![path]()
+- Cliquer sur Terminer. Le partage est effectif.
+
 
 # Etapes d'installation et configuration Ubuntu
 
@@ -370,6 +414,25 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 ![[etape 17]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/aa3f495c43a9f382548513d2fa9ad08fcea4c961/installation_client_2_Ubuntu/etape%2017%20VM%20installation%20ubuntu%20IPv4%20etape%204%20verification%20ip%20v2.png)
 
 - Ensuite, ouvrez le Terminal et tapez "ip addr show" comme montré à l'écran, puis tapez "ping 172.16.10.10" pour vérifier la connexion d'Ubuntu au serveur Windows.
+
+### Configuration Partage de fichiers
+- Ouvrez une invite de commandes et créez un répertoire pour accueillir le point de montage du répertoire partagé.
+
+	`sudo mkdir /mnt/sharesrv`
+
+On a choisi ici de monter dans le `/mnt` mais rien n'empêche de le monter dans un autre répertoire permanent.
+
+- Reliez ce point de montage au répertoire partagé localisé sur le serveur.
+
+	`sudo mount -o user=Administrator,password=Azerty1*,rw //172.16.10.10/Users/Administrator/Documents/Share /mnt/sharesrv`
+
+Notez bien que les détails de la ligne ci-dessus reprennent la configuration globale effectuée au cours de cette documentation. Le nom d'utilisateur `user=Administrator` et mot de passe associé `password=Azerty1*` du serveur, l'adresse IP `172.16.10.10` du serveur et le chemin réseau peuvent varier sur d'autres configurations.
+
+- Créez un lien symbolique, *symlink*, accessible pour un utilisateur vers ce point de montage. L'accès au répertoire en sera facilité pour vos utilisateurs sans avoir besoin d'entrer de ligne de commandes.
+
+	`sudo ln -s /mnt/sharesrv ~/sharesrv`
+
+
 
 # **Étapes d'installation et de configuration de KeePass**
 
