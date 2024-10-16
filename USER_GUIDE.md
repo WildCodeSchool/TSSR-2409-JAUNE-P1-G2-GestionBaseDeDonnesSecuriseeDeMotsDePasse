@@ -14,7 +14,7 @@
 - **Étape 3** : Entrez un mot de passe principal fort pour protéger la base de données. Assurez-vous qu'il est difficile à deviner.
 - **Conseil** : Utilisez une combinaison de lettres, chiffres et symboles.
 
-## 3. Ajouter une nouvelle entrée (mot de passe)
+## 3. Ajouter une nouvelle entrée
 
 ![[etape 3]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/3.%20Ajouter%20une%20nouvelle%20entr%C3%A9e%20(mot%20de%20passe).png)
 
@@ -31,7 +31,7 @@
 
 ![[etape 5]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/5.%20Ouvrir%20une%20bdd.png)
 
-- **Étape 7** : Pour ouvrir une base de données existante, cliquez sur "Fichier", puis "Ouvrir", et sélectionnez votre fichier .kdbx.
+- **Étape 7** : KeePass ouvrira la dernière base de données utilisée mais pour ouvrir une autre base de données existante, cliquez sur "Fichier", "Ouvrir", et sélectionnez votre fichier .kdbx.
 - **Étape 8** : Entrez votre mot de passe principal pour déverrouiller la base de données.
 
 ## 6. Générer un mot de passe sécurisé
@@ -51,7 +51,7 @@ L'utilisation des fonctionnalités avancées de KeePass permet de gagner un temp
 1. **Ctrl + K** : Ce raccourci permet de faire apparaître rapidement la fenêtre de KeePass, pratique lorsque vous en avez besoin dans un navigateur.
 2. **Ctrl + I** : Très utile pour créer une nouvelle entrée dans le dossier sélectionné.
 3. **Ctrl + F** : Ouvre une fenêtre de recherche pour retrouver rapidement une entrée.
-4. **Ctrl + Alt + A** : Le plus utile de tous lors de la connexion à un site. Placez le curseur dans le champ "identifiant", et cette commande saisira automatiquement vos identifiants de connexion avec une grande rapidité.
+4. **Ctrl + Alt + A** : Le plus utile de tous. Lors de la connexion à un site, placez le curseur dans le champ "identifiant" et cette commande saisira automatiquement vos identifiants de connexion avec une grande rapidité.
 
 Certains raccourcis peuvent être personnalisés dans les options du logiciel.
 ![image des raccourcis clavier](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/raccourcis.png)
@@ -85,7 +85,7 @@ KeePass permet de définir une date d'expiration pour chaque mot de passe ou gro
 
 ### [Plug-ins](https://keepass.info/plugins.html#browserimporter) :
 
-Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vos besoins. Par exemple, le plug-in "KeePassBrowserImporter" permet d'importer vos mots de passe depuis vos navigateurs.
+Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vos besoins. Par exemple, le plug-in ["KeePassBrowserImporter"](https://keepass.info/plugins.html#browserimporter) permet d'importer vos mots de passe depuis vos navigateurs.
 
 1. Cliquez sur le lien ci-dessus, installez le plug-in et copiez-le à la racine du dossier KeePass (par défaut : `C:\Program Files\KeePass Password Safe 2`).
 ![image de l'installation du plug-in](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin.png)
