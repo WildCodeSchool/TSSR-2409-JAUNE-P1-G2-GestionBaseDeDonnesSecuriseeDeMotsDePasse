@@ -103,38 +103,22 @@ Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vo
 # FAQ - KeePass
 
 ## Q1 : J'ai oublié mon mot de passe principal, que faire ?
-Si vous avez oublié votre mot de passe principal, vous ne pouvez pas le récupérer. KeePass crypte votre base de données avec ce mot de passe. Il est donc très important de ne jamais l'oublier. Notez votre mot de passe dans un endroit sûr pour éviter ce problème.
+Si vous avez oublié votre mot de passe principal, il n'est pas possible de le récupérer. KeePass crypte votre base de données avec ce mot de passe. Il est donc crucial de le mémoriser ou de le conserver dans un endroit sûr.
 
 ## Q2 : Comment synchroniser ma base de données sur plusieurs appareils ?
-Pour utiliser KeePass sur plusieurs appareils, vous pouvez enregistrer votre fichier .kdbx dans un service de stockage en ligne (comme Google Drive, Dropbox ou OneDrive). Ensuite, vous pouvez accéder au même fichier depuis d'autres appareils. Assurez-vous d'utiliser toujours la version la plus récente du fichier.
+Pour utiliser KeePass sur plusieurs appareils, enregistrez votre fichier .kdbx dans un service de stockage en ligne comme Google Drive, Dropbox ou OneDrive. Cela vous permettra d'accéder au même fichier depuis d'autres appareils, en vous assurant d'utiliser la version la plus récente.
 
 ## Q3 : Puis-je utiliser KeePass sur mon téléphone ?
-Oui, KeePass a des applications mobiles pour iOS et Android. Sur Android, utilisez "KeePass2Android", et sur iOS, utilisez "Strongbox" ou "KeePass Touch". Vous pouvez également synchroniser votre fichier de base de données via un service cloud.
+Oui, KeePass dispose d'applications pour iOS et Android. Sur Android, utilisez "KeePass2Android", et sur iOS, optez pour "Strongbox" ou "KeePass Touch". Vous pouvez synchroniser votre base de données via un service cloud.
 
 ## Q4 : Que faire si mon fichier de base de données est corrompu ?
-Si votre fichier .kdbx est corrompu, essayez de restaurer une version sauvegardée. KeePass ne peut pas réparer un fichier corrompu, donc il est conseillé de faire des sauvegardes régulières de votre base de données.
+Si votre fichier .kdbx est corrompu, essayez de restaurer une version sauvegardée. KeePass ne peut pas réparer un fichier corrompu, il est donc recommandé de faire des sauvegardes régulières de votre base de données.
 
-## Q5 : Comment retrouver une ancienne version de ma base de données ?
-Si vous avez activé les options de sauvegarde dans KeePass, vous pouvez retrouver une ancienne version de votre base de données. De plus, certains services en ligne (comme Dropbox) permettent de restaurer des versions précédentes de vos fichiers pendant un certain temps.
+## Q5 : Comment utiliser les clés de fichiers pour renforcer la sécurité ?
+Pour ajouter une couche de sécurité supplémentaire, vous pouvez utiliser une clé de fichier. Allez dans "Fichier" > "Charger une clé de fichier" lors de la création de votre base de données et conservez-la en lieu sûr, car elle est nécessaire pour déverrouiller la base.
 
-## Q6 : KeePass est-il sécurisé ?
-Oui, KeePass est très sécurisé. Il utilise un algorithme de chiffrement fort (AES-256). Mais, il est aussi important de choisir un mot de passe principal sécurisé et de protéger votre fichier de base de données.
+## Q6 : Comment organiser mes mots de passe dans KeePass ?
+Vous pouvez organiser vos mots de passe en groupes pour une gestion plus efficace. Cliquez sur "Édition" > "Ajouter un groupe" et créez des sous-groupes (par exemple, "Travail", "Personnel", "Banques") pour retrouver facilement vos mots de passe.
 
-## Utilisation avancée de KeePass
-
-## Q7 : Comment utiliser les clés de fichiers en plus du mot de passe principal pour plus de sécurité ?
-Vous pouvez utiliser une clé de fichier pour plus de sécurité. Allez dans "Fichier" > "Charger une clé de fichier" lors de la création de votre base de données. Sauvegardez cette clé de fichier dans un endroit sûr. Elle est nécessaire pour déverrouiller la base de données.
-
-## Q8 : Comment configurer KeePass pour remplir automatiquement les champs de connexion dans les navigateurs ?
-KeePass peut remplir automatiquement vos identifiants dans les navigateurs. Allez dans "Outils" > "Options" > "Intégration", et configurez les raccourcis clavier pour l’auto-saisie. Par exemple, utilisez Ctrl + Alt + A pour remplir automatiquement les champs de nom d'utilisateur et mot de passe.
-
-## Q9 : Comment activer l'authentification à deux facteurs (2FA) avec KeePass ?
-KeePass peut stocker les codes d’authentification à deux facteurs (2FA). Installez le plugin "KeeOTP" pour ajouter un générateur de codes 2FA dans KeePass. Après l’installation, vous pourrez ajouter un code OTP (mot de passe à usage unique) à chaque entrée.
-
-## Q10 : Comment créer et utiliser des groupes dans KeePass ?
-Vous pouvez organiser vos mots de passe en groupes. Cliquez sur "Édition" > "Ajouter un groupe". Vous pouvez créer des sous-groupes (par exemple, "Travail", "Personnel", "Banques") et y déplacer vos entrées. Cela facilite la recherche de vos mots de passe.
-
-## Q11 : Puis-je utiliser KeePass pour partager des mots de passe en toute sécurité ?
-Oui, vous pouvez partager une base de données KeePass avec d'autres utilisateurs. Assurez-vous que chaque utilisateur a accès au mot de passe principal et/ou à la clé de fichier. Utilisez une plateforme sécurisée pour transférer la base de données (.kdbx) et ne jamais envoyer de mots de passe par email ou autres canaux non sécurisés.
-
-
+## Q7 : Puis-je partager des mots de passe en toute sécurité ?
+Oui, vous pouvez partager une base de données KeePass avec d'autres utilisateurs. Assurez-vous que chaque utilisateur a accès au mot de passe principal et/ou à la clé de fichier. Utilisez des méthodes sécurisées pour transférer la base de données (.kdbx) sans envoyer de mots de passe par des canaux non sécurisés.
