@@ -326,7 +326,7 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 
 - Réglez la langue du clavier et les options de disposition du clavier, puis cliquez sur "Continuer".
 
-![[etape 7]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%207%20VM%20installation%20ubuntu%20mises%20%C3%A0%20jour%20et%20autres%20logiciels.png)
+![[etape 7]]([https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%207%20VM%20installation%20ubuntu%20mises%20%C3%A0%20jour%20et%20autres%20logiciels.png](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/9ea6be702f287ddec92905ce751f546181fedb35/installation_client_2_Ubuntu/etape%207%20corrige%201.png))
 
 - Comme montré sur l'image, sélectionnez l'option d'installation normale et cliquez sur "Continuer".
 
@@ -342,10 +342,10 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 
 - À cette étape, sélectionnez votre emplacement.
 
-![[etape 11]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2011%20VM%20installation%20ubuntu%20qui%20etes%20vous.png)
+![[etape 11]]([https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2011%20VM%20installation%20ubuntu%20qui%20etes%20vous.png](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/9ea6be702f287ddec92905ce751f546181fedb35/installation_client_2_Ubuntu/etape%2011%20corrige%202.png))
 
 - À cette étape, veuillez remplir les informations demandées en suivant les indications ci-dessous. Puis cliquez sur "Continuer".
-	- Nom : CLIWIN02 ou CLILIN02
+	- Nom : CLILIN02
   	- Compte utilisateur : wilder
   	- Mot de passe : Azerty1*
 
