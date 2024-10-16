@@ -464,7 +464,10 @@ Notez bien que les détails de la ligne ci-dessus reprennent la configuration gl
 
 ### 3. Conseils et informations
 
-Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. KeePass propose également plusieurs fonctions avancées qui peuvent vous aider à renforcer encore davantage la sécurité de vos données, telles que :
+Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. 
+Il est également conseillé d'imprimer la feuille de secours, KeePass vous le propose à la création de la base de données.  
+![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/feuilledesecours.png)  
+KeePass propose également plusieurs fonctions avancées qui peuvent vous aider à renforcer encore davantage la sécurité de vos données, telles que :
 
 - **Utilisation de plugins** : Ajoutez des fonctionnalités supplémentaires à KeePass, comme la synchronisation avec des services cloud ou l'intégration de nouveaux formats de mots de passe.
 - **Générateur de mots de passe complexes** : Créez des mots de passe uniques et robustes pour chaque compte, adaptés à vos besoins de sécurité.
@@ -506,7 +509,10 @@ keepass2
 
 ### 3. Conseils et informations
 
-Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. KeePass propose également plusieurs fonctions avancées qui peuvent vous aider à renforcer encore davantage la sécurité de vos données, telles que :
+Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. 
+Il est également conseillé d'imprimer la feuille de secours, KeePass vous le propose à la création de la base de données.  
+![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/feuilledesecours.png)  
+KeePass propose également plusieurs fonctions avancées qui peuvent vous aider à renforcer encore davantage la sécurité de vos données, telles que :
 
 - **Utilisation de plugins** : Ajoutez des fonctionnalités supplémentaires à KeePass, comme la synchronisation avec des services cloud ou l'intégration de nouveaux formats de mots de passe.
 - **Générateur de mots de passe complexes** : Créez des mots de passe uniques et robustes pour chaque compte, adaptés à vos besoins de sécurité.
