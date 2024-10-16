@@ -344,7 +344,10 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 
 ![[etape 11]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2011%20VM%20installation%20ubuntu%20qui%20etes%20vous.png)
 
-- À cette étape, remplissez les informations nécessaires comme montré à l'écran, puis définissez un mot de passe et cliquez sur "Continuer".
+- À cette étape, veuillez remplir les informations demandées en suivant les indications ci-dessous. Puis cliquez sur "Continuer".
+	- Nom : CLIWIN02 ou CLILIN02
+  	- Compte utilisateur : wilder
+  	- Mot de passe : Azerty1*
 
 ![[etape 12]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2012%20VM%20installation%20ubuntu%20installation.png)
 
