@@ -5,7 +5,7 @@
 
 ## Présentation du Projet
 
-Ce projet a pour objectif de mettre en place une solution de gestion de mots de passe centralisée, sécurisée et accessible à partir de plusieurs systèmes d'exploitation. L'idée est d'héberger une base de données chiffrée sur un serveur [**Windows Server 2022**](https://www.microsoft.com/fr-fr/windows-server), tout en permettant aux utilisateurs, sous [**Windows 10**](https://www.microsoft.com/fr-fr/software-download/windows10) ou [**Ubuntu 24**](https://www.ubuntu-fr.org/), d'y accéder de manière sécurisée grâce à l'application [**KeePass**](https://keepass.info/).
+Ce projet a pour objectif de mettre en place une solution de gestion de mots de passe centralisée, sécurisée et accessible à partir de plusieurs systèmes d'exploitation. L'idée est d'héberger une base de données chiffrée sur un serveur [**Windows Server 2022**](https://www.microsoft.com/fr-fr/windows-server), tout en permettant aux utilisateurs, sous [**Windows 10**](https://www.microsoft.com/fr-fr/software-download/windows10) ou [**Ubuntu 22**](https://www.ubuntu-fr.org/), d'y accéder de manière sécurisée grâce à l'application [**KeePass**](https://keepass.info/).
 
 ### Objectifs
 
