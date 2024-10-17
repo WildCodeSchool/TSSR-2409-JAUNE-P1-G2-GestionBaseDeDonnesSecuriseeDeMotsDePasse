@@ -42,19 +42,11 @@
 - **Étape 10** : Sélectionnez les critères du mot de passe (longueur, lettres, chiffres, symboles, etc.).
 
 --------------------------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 # Utilisation avancée de KeePass
 
 L'utilisation des fonctionnalités avancées de KeePass permet de gagner un temps précieux tout en renforçant la sécurité de vos informations sensibles. Ces outils optimisent votre efficacité au quotidien.
 
-<<<<<<< HEAD
 ### [Raccourcis clavier utiles](https://keepass.info/help/kb/keyb_shortcuts.html) :
-=======
-### [Raccourcis clavier utiles](https://keepass.info/help/kb/keyb_shortcuts.html)
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 1. **Ctrl + K** : Ce raccourci permet de faire apparaître rapidement la fenêtre de KeePass, pratique lorsque vous en avez besoin dans un navigateur.
 2. **Ctrl + I** : Très utile pour créer une nouvelle entrée dans le dossier sélectionné.
@@ -64,11 +56,7 @@ L'utilisation des fonctionnalités avancées de KeePass permet de gagner un temp
 Certains raccourcis peuvent être personnalisés dans les options du logiciel.
 ![image des raccourcis clavier](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/raccourcis.png)
 
-<<<<<<< HEAD
 ### [Auto-Type](https://keepass.info/help/base/autotype.html) : 
-=======
-### [Auto-Type](https://keepass.info/help/base/autotype.html)
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 Auto-Type automatise la saisie de vos identifiants sur les sites Web et les applications. En configurant des séquences de frappes personnalisées, KeePass peut reproduire vos informations d’identification rapidement et en toute sécurité, tout en s'adaptant à la configuration du site. Cela limite ainsi les erreurs de saisie. La commande par défaut pour Auto-Type est **Ctrl + Alt + A**, mais elle est personnalisable.
 
@@ -79,11 +67,7 @@ Auto-Type automatise la saisie de vos identifiants sur les sites Web et les appl
 2. À partir de là, presque toutes les combinaisons de frappes sont possibles ! Par exemple, j'ai remplacé `{TAB}` par `{ENTER}{DELAY 1500}`. Cette séquence est très pratique sur Google, où le mot de passe n'est accessible qu'après avoir entré l'identifiant, d'où le délai de 1500 ms.
 ![image d'un exemple de séquence Auto-Type](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/autotype.png)
 
-<<<<<<< HEAD
 ### Date d'expiration :
-=======
-### Date d'expiration
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 KeePass permet de définir une date d'expiration pour chaque mot de passe ou groupe, vous rappelant ainsi de les mettre à jour régulièrement pour plus de sécurité.
 
@@ -99,11 +83,7 @@ KeePass permet de définir une date d'expiration pour chaque mot de passe ou gro
 2. Vous pouvez choisir une date d'expiration pour un groupe lors de sa création, mais cela ne sera plus possible après.
 ![image de l'expiration d'un groupe](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationgroupe.png)
 
-<<<<<<< HEAD
 ### [Plug-ins](https://keepass.info/plugins.html#browserimporter) :
-=======
-### [Plug-ins](https://keepass.info/plugins.html#browserimporter)
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vos besoins. Par exemple, le plug-in ["KeePassBrowserImporter"](https://keepass.info/plugins.html#browserimporter) permet d'importer vos mots de passe depuis vos navigateurs.
 
@@ -118,16 +98,11 @@ Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vo
 
 4. Sélectionnez votre navigateur, vérifiez les options (en particulier si un mot de passe est requis), et cliquez sur "Start".
 ![image du lancement de l'importation](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin4.png)
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 ---
 
 # FAQ - KeePass
 
 ## Q1 : J'ai oublié mon mot de passe principal, que faire ?
-<<<<<<< HEAD
 Si vous avez oublié votre mot de passe principal, il n'est pas possible de le récupérer. KeePass crypte votre base de données avec ce mot de passe. Il est donc crucial de le mémoriser ou de le conserver dans un endroit sûr.
 
 ## Q2 : Comment synchroniser ma base de données sur plusieurs appareils ?
@@ -143,27 +118,4 @@ Pour ajouter une couche de sécurité supplémentaire, vous pouvez utiliser une 
 Vous pouvez organiser vos mots de passe en groupes pour une gestion plus efficace. Cliquez sur "Édition" > "Ajouter un groupe" et créez des sous-groupes (par exemple, "Travail", "Personnel", "Banques") pour retrouver facilement vos mots de passe.
 
 ## Q6 : Puis-je partager des mots de passe en toute sécurité ?
-=======
-
-Si vous avez oublié votre mot de passe principal, il n'est pas possible de le récupérer. KeePass crypte votre base de données avec ce mot de passe. Il est donc crucial de le mémoriser ou de le conserver dans un endroit sûr.
-
-## Q2 : Comment synchroniser ma base de données sur plusieurs appareils ?
-
-Pour utiliser KeePass sur plusieurs appareils, enregistrez votre fichier .kdbx dans un service de stockage en ligne comme Google Drive, Dropbox ou OneDrive. Cela vous permettra d'accéder au même fichier depuis d'autres appareils, en vous assurant d'utiliser la version la plus récente.
-
-## Q3 : Que faire si mon fichier de base de données est corrompu ?
-
-Si votre fichier .kdbx est corrompu, essayez de restaurer une version sauvegardée. KeePass ne peut pas réparer un fichier corrompu, il est donc recommandé de faire des sauvegardes régulières de votre base de données.
-
-## Q4 : Comment utiliser les clés de fichiers pour renforcer la sécurité ?
-
-Pour ajouter une couche de sécurité supplémentaire, vous pouvez utiliser une clé de fichier. Allez dans "Fichier" > "Charger une clé de fichier" lors de la création de votre base de données et conservez-la en lieu sûr, car elle est nécessaire pour déverrouiller la base.
-
-## Q5 : Comment organiser mes mots de passe dans KeePass ?
-
-Vous pouvez organiser vos mots de passe en groupes pour une gestion plus efficace. Cliquez sur "Édition" > "Ajouter un groupe" et créez des sous-groupes (par exemple, "Travail", "Personnel", "Banques") pour retrouver facilement vos mots de passe.
-
-## Q6 : Puis-je partager des mots de passe en toute sécurité ?
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 Oui, vous pouvez partager une base de données KeePass avec d'autres utilisateurs. Assurez-vous que chaque utilisateur a accès au mot de passe principal ou à la clé de fichier. Utilisez des méthodes sécurisées pour transférer la base de données (.kdbx) sans envoyer de mots de passe par des canaux non sécurisés.
