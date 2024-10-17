@@ -1,9 +1,6 @@
 # Installation
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 - Ce document explique comment installer Windows Server 2022, Windows 10, Ubuntu et Keepass. Certaines étapes sont décrites en détails, afin de couvrir la grande variété des petites particularités des différentes installations et configurations.
 
 - Si vous avez des problèmes, prenez le temps d'étudier attentivement ces instructions : la plupart des difficultés y sont traitées. Si cela ne suffit pas, vous pouvez demander de l'aide à la communauté [Windows]( https://support.microsoft.com/fr-fr) ou [Linux](https://doc.ubuntu-fr.org/).
@@ -11,10 +8,6 @@
 # Prérequis nécessaires
 
 Pour le bon déroulement du projet, il vous faut :
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 - Un serveur installé en Windows Server 2022 ;
 - Un client installé en Windows 10 ;
 - Un client installé en Ubuntu (22.04 par exemple) ;
@@ -41,7 +34,6 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 - Les images iso de [Windows 10](https://www.microsoft.com/fr-fr/software-download/windows10), [Windows server](https://www.microsoft.com/fr-fr/evalcenter/download-windows-server-2022) et [Ubuntu](https://www.ubuntu-fr.org/download/).
 - Il nous faut également le logiciel [Keepass](https://keepass.info/download.html), indispensable pour chiffrer les mots de passe.
 
-<<<<<<< HEAD
 
 # Etapes d'installation et Configuration Serveur
 ## Configuration VM
@@ -49,83 +41,41 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 - La renommer **SRVWIN**, le nom que l'on donnera à notre machine lors de l'installation ;
 
 	![vmname](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmname.png)
-=======
-# Etapes d'installation et Configuration Serveur
-
-## Configuration VM
-
-- Créer une nouvelle machine virtuelle.
-- La renommer **SRVWIN**, le nom que l'on donnera à notre machine lors de l'installation ;
-
- ![vmname](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmname.png)
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 - Ne surtout **PAS** ajouter de CDRom d'installation à cette étape et laisser les paramètres de l'onglet "unattended install" par défaut ;
 - Ajouter un total de **2 CPU** et minimum **2 Go de RAM** ;
 
-<<<<<<< HEAD
  	![vmcpu](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcpu.png)
 
 - Configurer le stockage sur un minimum de **40 Go** ;
 
 	![vmstock](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmstock.png)
-=======
-  ![vmcpu](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcpu.png)
-
-- Configurer le stockage sur un minimum de **40 Go** ;
-
- ![vmstock](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmstock.png)
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 - Valider puis aller dans la configuration de la machine virtuelle.
 - Dans l'onglet Stockage, ajouter le .iso correspondant au CDRom d'installation de **Windows Server 2022** ;
 
-<<<<<<< HEAD
 	![vmcd](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcd.png)
 
 - Dans l'onglet Réseau, ajouter, en plus de l'adaptateur réseau NAT, un deuxième **adaptateur en Réseau interne**, connecté au *même réseau interne* que les futures VMs Clients.
 
 	![vmnet](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmnet.png)
-=======
- ![vmcd](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcd.png)
-
-- Dans l'onglet Réseau, ajouter, en plus de l'adaptateur réseau NAT, un deuxième **adaptateur en Réseau interne**, connecté au *même réseau interne* que les futures VMs Clients.
-
- ![vmnet](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmnet.png)
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ## Choix linguistiques
 
 ![TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/Install Server
 /choixlangue.png](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/choixlangue.png)
-<<<<<<< HEAD
 - Langage d'installation : English (U.S.)
 - Heure et devise : French (France)
 	- Attention : il y a plusieurs French, bien choisir celui de la France ;
 - Configuration clavier : French
 
 ## Lancer l'installation
-=======
-
-- Langage d'installation : English (U.S.)
-- Heure et devise : French (France)
- 	- Attention : il y a plusieurs French, bien choisir celui de la France ;
-- Configuration clavier : French
-
-## Lancer l'installation
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 - Sélection du système d'exploitation :
 
 ![[[Pasted image 20241009170739.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/choixos.png)
 
-<<<<<<< HEAD
  - Sélectionner la version Standard avec Expérience utilisateur (*Standard Evaluation (Desktop Experience)* - en anglais) puis cliquer sur Next ;
 	-  Nous ne sommes pas sur une configuration Datacenter et une interface graphique est préférable ;
-=======
-- Sélectionner la version Standard avec Expérience utilisateur (*Standard Evaluation (Desktop Experience)* - en anglais) puis cliquer sur Next ;
- 	- Nous ne sommes pas sur une configuration Datacenter et une interface graphique est préférable ;
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 - Cocher la case pour accepter les termes du contrat de licence puis cliquer sur Next ;
 
@@ -139,31 +89,17 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 - Le système s'installe :
 
  ![[[Pasted image 20241009172140.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/install.png)
-<<<<<<< HEAD
 - Définition du mot de passe :
 	- Le nom d'utilisateur est obligatoirement : Administrator
 	- Définir le mot de passe par défaut : Azerty1*
 
 ## Configuration Serveur
-=======
-
-- Définition du mot de passe :
- 	- Le nom d'utilisateur est obligatoirement : Administrator
- 	- Définir le mot de passe par défaut : Azerty1*
-
-## Configuration Serveur
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 - Découverte de réseaux : confirmer la découverte de la machine par les autres machines du réseau ;
 
  ![[[Pasted image 20241009174703.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/net.png)
 
 - Installation des Guest Additions :
-<<<<<<< HEAD
 	- Dans l'onglet Périphériques de VirtualBox, insérer l'image CD des Additions invité ;
-=======
- 	- Dans l'onglet Périphériques de VirtualBox, insérer l'image CD des Additions invité ;
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
  ![[[Pasted image 20241009175000.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/addcd.png)
 
@@ -174,7 +110,6 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 - Laisser toutes les configurations par défaut en appuyant sur Next jusqu'à l'installation des additions puis laisser le serveur redémarrer (Reboot now) avant de cliquer sur Finish ;
 
 - Désactivation du Pare-feu
-<<<<<<< HEAD
 	- Après le redémarrage, se rendre dans l'onglet Local Server du Server Manager puis cliquer sur "Public : On, Private : On" :
 
  ![[[Pasted image 20241009175714.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/firewall.png)
@@ -184,22 +119,10 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
   ![[[Pasted image 20241009180236.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/firedom.png)
 
  - Jusqu'à atteindre cet état sur les trois pare-feu :
-=======
- 	- Après le redémarrage, se rendre dans l'onglet Local Server du Server Manager puis cliquer sur "Public : On, Private : On" :
-
- ![[[Pasted image 20241009175714.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/firewall.png)
-
-- Successivement sur les pages "Domain network", "Private network" et "Public network", entrer et désactiver les pare-feu en passant le bouton sur Off
-
-  ![[[Pasted image 20241009180236.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/firedom.png)
-
-- Jusqu'à atteindre cet état sur les trois pare-feu :
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ![[[Pasted image 20241009180327.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/allfire.png)
 
 - Activer la découverte de réseaux et le partage de fichiers :
-<<<<<<< HEAD
 	- Dans la barre de recherche windows, rechercher "Manage advanced sharing settings" ;
 	- Pour chaque onglet "Private", "Guest or Public" et "All Networks", activer les boutons "Turn on network discovery" et "Turn on file and printer sharing" :
 
@@ -209,43 +132,21 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 
 - Configuration de la carte réseau :
 	- Avec la commande Windows+R, entrer "ncpa.cpl" pour ouvrir la modification des connecteurs réseaux :
-=======
- 	- Dans la barre de recherche windows, rechercher "Manage advanced sharing settings" ;
- 	- Pour chaque onglet "Private", "Guest or Public" et "All Networks", activer les boutons "Turn on network discovery" et "Turn on file and printer sharing" :
-
-![[[Pasted image 20241009180655.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/share.png)
-
-- Puis cliquer sur "Save changes" ;
-
-- Configuration de la carte réseau :
- 	- Avec la commande Windows+R, entrer "ncpa.cpl" pour ouvrir la modification des connecteurs réseaux :
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
   ![[[Pasted image 20241009181031.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/ncpa.png)
 
 - Entrer dans les propriétés de la carte réseau connectée au réseau interne, ici la carte Ethernet 2 ;
 - Entrer dans les propriétés de la ligne "IPv4" :
-<<<<<<< HEAD
  
 	![[[Pasted image 20241009181217.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/ipv4.png)
 
  - Et définir l'adresse IP en 172.16.10.10 et le masque de sous-réseau en 255.255.255.0 :
-=======
-
- ![[[Pasted image 20241009181217.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/ipv4.png)
-
-- Et définir l'adresse IP en 172.16.10.10 et le masque de sous-réseau en 255.255.255.0 :
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
   ![[[Pasted image 20241009181307.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/address.png)
 
 - Redémarrer une dernière fois la machine pour prendre en compte tous les changements effectués.
 
 ## Configuration Partage de fichiers
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 ### Installer le service de rôle NFS
 
 1. Dans le menu Manage du Gestionnaire de serveur, sélectionnez **Add Roles and Features**.
@@ -272,18 +173,10 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 10. Vous pouvez cliquer sur **Close** pendant l’installation ou une fois l’installation terminée.
 
 ### Créer le répertoire partagé
-<<<<<<< HEAD
 - Créer un répertoire à l'endroit souhaité ;
 	- C'est dans ce répertoire que sera situé la base de données KeePass ;
 - Entrer dans les propriétés du répertoire et aller dans l'onglet **Sharing** ;
 	- Pensez à bien noter le chemin réseau, il servira par la suite pour les clients ;
-=======
-
-- Créer un répertoire à l'endroit souhaité ;
- 	- C'est dans ce répertoire que sera situé la base de données KeePass ;
-- Entrer dans les propriétés du répertoire et aller dans l'onglet **Sharing** ;
- 	- Pensez à bien noter le chemin réseau, il servira par la suite pour les clients ;
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 - Cliquer sur **Share** ;
 
 ![share](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/share.png)
@@ -295,13 +188,8 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 - Votre machine est prête à être mise en réseau. Dans les étapes suivantes, nous installerons le logiciel KeePass et détaillerons le partage de fichier nécessaire pour un accès client.
 
 # Etapes d'installation et configuration Windows 10
-<<<<<<< HEAD
 ## Choix des langues
 
-=======
-
-## Choix des langues
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ![[langue.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/langue.png)
 
@@ -334,10 +222,6 @@ Choisissez ensuite Personnalisé : installer uniquement Windows (avancé).
 ![[espace alloué.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/espace%20allou%C3%A9.png)
 
 À la demande *Où souhaitez-vous installer Windows ?”*, plusieurs options sont possibles :
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 - Si votre disque est vide, sélectionnez-le et cliquez sur Suivant  
 - S'il ne l'est pas, choisissez le lecteur principal et cliquez sur Formater, puis Suivant (attention, vous perdrez les données du lecteur en question, ce qui ne devrait normalement pas poser de problème).
 
@@ -346,10 +230,6 @@ Choisissez ensuite Personnalisé : installer uniquement Windows (avancé).
 L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'achève.
 
 ## Configurer Windows 10
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 ### Choix des langues
 
 ![[choix langue 2.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/choix%20langue%202.png)
@@ -371,24 +251,14 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 ![[nom utilisateur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/nom%20utilisateur.png)
 
 - Créer votre nom d'utilisateur et cliquez sur suivant.
-<<<<<<< HEAD
 	- Pour le projet, le nom d'utilisateur choisi est : wilder
-=======
- 	- Pour le projet, le nom d'utilisateur choisi est : wilder
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ![[mot de passe.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/mot%20de%20passe.png)
 
 - Définissez un mot de passe pour votre ordinateur.
-<<<<<<< HEAD
 	- Pour le projet, le mot de passe choisi est Azerty1*
 
 -  Il faudra ensuite choisir si vous souhaiter activer différents services.
-=======
- 	- Pour le projet, le mot de passe choisi est Azerty1*
-
-- Il faudra ensuite choisir si vous souhaiter activer différents services.
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 - Windows prend enfin quelques minutes pour se configurer.
 
@@ -426,11 +296,7 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 
 ![[réseau 4.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%204.png)
 
-<<<<<<< HEAD
 - double cliquez sur *Protocole Internet version 4* 
-=======
-- double cliquez sur *Protocole Internet version 4*
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ![[réseau 5.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%205.png)
 
@@ -447,10 +313,6 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
  ![[accès serveur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/acc%C3%A8s%20serveur.png)
 
 ### Configuration Partage de fichiers
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 - Dans les fichiers Windows, sur la page **Ce PC**, dans l'onglet **Ordinateur**, choisir **Connecter un lecteur réseau** ;
 
 ![connect](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/91313c6587cb4cedd4de078fbaa68adfb5c0ed82/image%20install%20win%2010/connect.png)
@@ -461,10 +323,7 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 
 - Cliquer sur Terminer. Le partage est effectif.
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 # Etapes d'installation et configuration Ubuntu
 
 ![[etape 1]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/7eee1a7b19e1e0d27e7efcdf1d147485f4b2591e/installation_client_2_Ubuntu/etape%201%20VM.png)
@@ -478,13 +337,8 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 ![[etape 3]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/3bc550c67cebfe9d3871b7a91931edb5f8236797/installation_client_2_Ubuntu/etape%203%20VM%20nat%20internal%20network.png)
 
 - Faites un clic droit sur l'Ubuntu dans la VM, allez dans les paramètres, puis sélectionnez les options réseau.
-<<<<<<< HEAD
 	- Configurer l'Adaptateur 1 en NAT ;
  	- Configurer l'Adaptateur 2 en Réseau interne. Assurez vous de bien choisir le même réseau interne que vos autres machines.
-=======
- 	- Configurer l'Adaptateur 1 en NAT ;
-  - Configurer l'Adaptateur 2 en Réseau interne. Assurez vous de bien choisir le même réseau interne que vos autres machines.
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ![[etape 4]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/be14cfceeb71d779da0114a19a850a4df38744ca/installation_client_2_Ubuntu/etape%204%20VM%20installation%20ubuntu.png)
 
@@ -517,15 +371,9 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 ![[etape 11]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/3f0fe1a15ddaf9f16231ea25d463470a1285d44c/installation_client_2_Ubuntu/etape%2011%20corrige%202.png)
 
 - À cette étape, veuillez remplir les informations demandées en suivant les indications ci-dessous. Puis cliquez sur "Continuer".
-<<<<<<< HEAD
 	- Nom : CLILIN02
   	- Compte utilisateur : wilder
   	- Mot de passe : Azerty1*
-=======
- 	- Nom : CLILIN02
-  - Compte utilisateur : wilder
-  - Mot de passe : Azerty1*
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ![[etape 12]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/1a6658d3208a47a4c1c2880281c77fb5f257ae23/installation_client_2_Ubuntu/etape%2012%20VM%20installation%20ubuntu%20installation.png)
 
@@ -550,44 +398,25 @@ Dans le but de créer une liaison simple avec le serveur, il faut désactiver le
 - Ensuite, ouvrez le Terminal et tapez `ip addr show` comme montré à l'écran, puis tapez `ping 172.16.10.10` pour vérifier la connexion d'Ubuntu au serveur Windows.
 
 ## Configuration Partage de fichiers
-<<<<<<< HEAD
 - Ouvrez une invite de commandes et créez un répertoire pour accueillir le point de montage du répertoire partagé.
 
 	`sudo mkdir /mnt/sharesrv`
-=======
-
-- Ouvrez une invite de commandes et créez un répertoire pour accueillir le point de montage du répertoire partagé.
-
- `sudo mkdir /mnt/sharesrv`
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 On a choisi ici de monter dans le `/mnt` mais rien n'empêche de le monter dans un autre répertoire permanent.
 
 - Reliez ce point de montage au répertoire partagé localisé sur le serveur.
 
-<<<<<<< HEAD
 	`sudo mount -o user=Administrator,password=Azerty1*,rw //172.16.10.10/Users/Administrator/Documents/Share /mnt/sharesrv`
-=======
- `sudo mount -o user=Administrator,password=Azerty1*,rw //172.16.10.10/Users/Administrator/Documents/Share /mnt/sharesrv`
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 Notez bien que les détails de la ligne ci-dessus reprennent la configuration globale effectuée au cours de cette documentation. Le nom d'utilisateur `user=Administrator` et mot de passe associé `password=Azerty1*` du serveur, l'adresse IP `172.16.10.10` du serveur et le chemin réseau peuvent varier sur d'autres configurations.
 
 - Créez un lien symbolique, *symlink*, accessible pour un utilisateur vers ce point de montage. L'accès au répertoire en sera facilité pour vos utilisateurs sans avoir besoin d'entrer de ligne de commandes.
 
-<<<<<<< HEAD
 	`sudo ln -s /mnt/sharesrv ~/sharesrv`
 
 # Étapes d'installation et de configuration de KeePass
 
 ## Pour Windows 10 :
-=======
- `sudo ln -s /mnt/sharesrv ~/sharesrv`
-
-# Étapes d'installation et de configuration de KeePass
-
-## Pour Windows 10
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ### 1. Téléchargement de KeePass
 
@@ -627,11 +456,7 @@ Notez bien que les détails de la ligne ci-dessus reprennent la configuration gl
 
 ### 3. Conseils et informations
 
-<<<<<<< HEAD
 Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. 
-=======
-Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne.
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 Il est également conseillé d'imprimer la feuille de secours, KeePass vous le propose à la création de la base de données.  
 
 ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/feuilledesecours.png)  
@@ -648,11 +473,7 @@ En adoptant ces bonnes pratiques, vous renforcerez la sécurité de vos informat
 
 ---
 
-<<<<<<< HEAD
 ## Pour Ubuntu :
-=======
-## Pour Ubuntu
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 
 ### 1. Téléchargement de KeePass
 
@@ -685,11 +506,7 @@ keepass2
 
 ### 3. Conseils et informations
 
-<<<<<<< HEAD
 Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne. 
-=======
-Pour tirer pleinement parti des nombreuses fonctionnalités offertes par KeePass, il est fortement recommandé de consulter [la documentation officielle](https://keepass.info/help/base/faq_tech.html) ou de suivre des tutoriels en ligne.
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 Il est également conseillé d'imprimer la feuille de secours, KeePass vous le propose à la création de la base de données.  
 
 ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/ImagesKeePass/feuilledesecours.png)  
@@ -704,10 +521,7 @@ KeePass propose également plusieurs fonctions avancées qui peuvent vous aider 
 
 En adoptant ces bonnes pratiques, vous renforcerez la sécurité de vos informations sensibles et gagnerez un temps considérable tout en optimisant l'utilisation de KeePass.
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 # FAQ
 
 ## Pourquoi KeePass essaie-t-il de se connecter à Internet?
@@ -718,18 +532,12 @@ Les vérifications automatiques de mise à jour sont effectuées de manière ini
 
 Lorsque vous démarrez KeePass pour la première fois, il vous demande si vous souhaitez activer vérifications de mise à jour automatique (recommandé). Ils peuvent être activés/désactivés à tout moment temps d'utilisation de l'option dans 'Outils' → 'Options' → onglet 'Avancé'.
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 ## Pourquoi la qualité estimée d'un mot de passe diminue-t-elle soudainement?
 
 Pour estimer la qualité/force d'un mot de passe, KeePass n'utilise pas seulement méthodes statistiques (comme la vérification des plages de caractères utilisées, par exemple répétant des caractères et des différences), il a également une liste intégrée de mots de passe et vérifications courants des modèles. Lorsque vous remplissez un mot de passe commun ou un répétition, la qualité estimée peut baisser.
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2fa99ee (Version Finale de la doc du projet1)
 ##  Le GUI prend-il en charge les thèmes sombres?
 
 Oui. KeePass prend en charge tous les thèmes système, y compris les thèmes sombres.
