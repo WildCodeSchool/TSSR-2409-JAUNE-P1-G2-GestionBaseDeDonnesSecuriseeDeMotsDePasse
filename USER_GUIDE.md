@@ -80,7 +80,7 @@ KeePass permet de définir une date d'expiration pour chaque mot de passe ou gro
 - Lorsque l'entrée sera expirée, KeePass vous le signalera.
 ![image d'une entrée expirée](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/ExpirationEntr%C3%A9e4.png)
 
-2. Vous pouvez choisir une date d'expiration pour un groupe lors de sa création, mais cela ne sera plus possible après.
+2. Vous pouvez choisir une date d'expiration pour un groupe en faisant un clic droit dessus, "Éditer un groupe", et dans l'onglet "Général", en bas à gauche, cochez la case "Expiration". Choisissez une date de la même façon que pour les entrées, ou vous pouvez la définir directement lors de sa création.
 ![image de l'expiration d'un groupe](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationgroupe.png)
 
 ### [Plug-ins](https://keepass.info/plugins.html#browserimporter) :
