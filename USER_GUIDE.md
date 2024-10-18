@@ -54,7 +54,7 @@ L'utilisation des fonctionnalités avancées de KeePass permet de gagner un temp
 4. **Ctrl + Alt + A** : Le plus utile de tous. Lors de la connexion à un site, placez le curseur dans le champ "identifiant" et cette commande saisira automatiquement vos identifiants de connexion avec une grande rapidité.
 
 Certains raccourcis peuvent être personnalisés dans les options du logiciel.
-![image des raccourcis clavier](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/raccourcis.png)
+![image des raccourcis clavier](/UtilisationAvancéeKeePass/raccourcis.png)
 
 ### [Auto-Type](https://keepass.info/help/base/autotype.html) : 
 
