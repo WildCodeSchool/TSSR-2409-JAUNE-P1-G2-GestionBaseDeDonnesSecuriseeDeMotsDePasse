@@ -191,7 +191,7 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 ## Choix des langues
 
 
-![[langue.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/langue.png)
+![[langue.png]](/image%20install%20win%2010/langue.png)
 
 - Une fois que le PC démarre, la première étape consiste à choisir vos préférences linguistiques.
 - Puis cliquez sur installer maintenant.
@@ -207,7 +207,7 @@ Pendant l’installation, vous êtes invité à entrer une clé de produit.
 
 ## Lancer l'installation
 
-![[choix os.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/choix%20os.png)
+![[choix os.png]](/image%20install%20win%2010/choix%20os.png)
 
 Sélectionnez ensuite la version de Windows qui vous convient, Windows Famille étant le choix recommandé pour les particuliers.
 
@@ -215,45 +215,45 @@ Acceptez les termes du contrat.
 
 ### Choix de la destination de l'installation
 
-![[installation disque.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/installation%20disque.png)
+![[installation disque.png]](/image%20install%20win%2010/installation%20disque.png)
 
 Choisissez ensuite Personnalisé : installer uniquement Windows (avancé).
 
-![[espace alloué.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/espace%20allou%C3%A9.png)
+![[espace alloué.png]](/image%20install%20win%2010/espace%20allou%C3%A9.png)
 
 À la demande *Où souhaitez-vous installer Windows ?”*, plusieurs options sont possibles :
 - Si votre disque est vide, sélectionnez-le et cliquez sur Suivant  
 - S'il ne l'est pas, choisissez le lecteur principal et cliquez sur Formater, puis Suivant (attention, vous perdrez les données du lecteur en question, ce qui ne devrait normalement pas poser de problème).
 
-![[instal.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/instal.png)
+![[instal.png]](/image%20install%20win%2010/instal.png)
 
 L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'achève.
 
 ## Configurer Windows 10
 ### Choix des langues
 
-![[choix langue 2.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/choix%20langue%202.png)
+![[choix langue 2.png]](/image%20install%20win%2010/choix%20langue%202.png)
 
 - Sélectionnez votre pays.
 
-![[clavier.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/clavier.png)
+![[clavier.png]](/image%20install%20win%2010/clavier.png)
 
 - puis votre disposition de clavier.
 
-![[clavier secondaire.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/clavier%20secondaire.png)
+![[clavier secondaire.png]](/image%20install%20win%2010/clavier%20secondaire.png)
 
 - et éventuellement une seconde disposition.
 
-![[ajout compte.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/ajout%20compte.png)
+![[ajout compte.png]](/image%20install%20win%2010/ajout%20compte.png)
 
 - L'étape suivante exige la création d'un compte Microsoft ou, le cas échéant, de s'identifier avec celui dont vous disposez. Cliquez sur *compte hors connexion* pour s'en affranchir.
 
-![[nom utilisateur.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/nom%20utilisateur.png)
+![[nom utilisateur.png]](/image%20install%20win%2010/nom%20utilisateur.png)
 
 - Créer votre nom d'utilisateur et cliquez sur suivant.
 	- Pour le projet, le nom d'utilisateur choisi est : wilder
 
-![[mot de passe.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/mot%20de%20passe.png)
+![[mot de passe.png]](/image%20install%20win%2010/mot%20de%20passe.png)
 
 - Définissez un mot de passe pour votre ordinateur.
 	- Pour le projet, le mot de passe choisi est Azerty1*
@@ -268,37 +268,37 @@ L'installation de Windows se lance et vous n'avez plus qu'à attendre qu'elle s'
 
 Dans le but de créer une liaison simple avec le serveur, il faut désactiver les pare-feu. Pour ce faire, taper pare-feu dans la barre de recherche du bureau, et selectionner *pare-feu Windows defender*. Puis selectionner *Activer ou désactiver le Pare-feu Windows Defender*, et désactiver les pare-feu de réseaux privés et publics.
 
-![[pareu feu.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/pareu%20feu.png)
+![[pareu feu.png]](/image%20install%20win%2010/pareu%20feu.png)
 
 ### Configuration du poste client
 
-![[adittion invité.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/adittion%20invit%C3%A9.png)
+![[adittion invité.png]](/image%20install%20win%2010/adittion%20invit%C3%A9.png)
 
 - Dans l'onglet Périphériques de VirtualBox, insérer l'image CD des Additions invité.
 
-![[localisation .exe guest.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/localisation%20.exe%20guest.png)
+![[localisation .exe guest.png]](/image%20install%20win%2010/localisation%20.exe%20guest.png)
 
 - Chercher ensuite le lecteur créer VirtualBox Guest Additions et sélectionner a l'intérieur l'exécutable VBoxWindowsAdditions. Ensuite appuyé sur next et installer et Windows redémarrera automatiquement.
 
 ### Configuration réseau
 
-![[réseau 1.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%201.png)
+![[réseau 1.png]](/image%20install%20win%2010/r%C3%A9seau%201.png)
 
 - cliquez sur **Réseau et Internet** depuis les paramètres de Windows 10
 
-![[réseau 2.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%202.png)
+![[réseau 2.png]](/image%20install%20win%2010/r%C3%A9seau%202.png)
 
 - Cliquez sur *Modifier les options d'adaptateur*
 
-![[réseau 3.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%203.png)
+![[réseau 3.png]](/image%20install%20win%2010/r%C3%A9seau%203.png)
 
 - Cliquez sur les propriétés de votre carte réseau.
 
-![[réseau 4.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%204.png)
+![[réseau 4.png]](/image%20install%20win%2010/r%C3%A9seau%204.png)
 
 - double cliquez sur *Protocole Internet version 4* 
 
-![[réseau 5.png]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/image%20install%20win%2010/r%C3%A9seau%205.png)
+![[réseau 5.png]](/image%20install%20win%2010/r%C3%A9seau%205.png)
 
 - Cliquez sur *Utilisez l'adresse IP suivante* et insérez l'adresse ip. ainsi que le masque de sous réseau fournit.
 
