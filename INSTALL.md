@@ -40,7 +40,7 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 - Créer une nouvelle machine virtuelle.
 - La renommer **SRVWIN**, le nom que l'on donnera à notre machine lors de l'installation ;
 
-	![vmname](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmname.png)
+	![vmname](Install Server/vmname.png)
 
 - Ne surtout **PAS** ajouter de CDRom d'installation à cette étape et laisser les paramètres de l'onglet "unattended install" par défaut ;
 - Ajouter un total de **2 CPU** et minimum **2 Go de RAM** ;
