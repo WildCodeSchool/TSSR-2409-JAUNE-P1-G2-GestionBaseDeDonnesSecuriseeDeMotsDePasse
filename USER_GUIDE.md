@@ -64,42 +64,42 @@ Auto-Type automatise la saisie de vos identifiants sur les sites Web et les appl
 **Pour personnaliser vos séquences de frappes :**
 
 1. Double-cliquez sur l'entrée souhaitée, rendez-vous dans l'onglet "Saisie automatique", sélectionnez "Remplacer la séquence de frappes par défaut", puis cliquez sur "Éditer".
-![image de l'édition d'Auto-Type](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/autotype.png)
+![image de l'édition d'Auto-Type](/UtilisationAvanc%C3%A9eKeePass/autotype.png)
 2. À partir de là, presque toutes les combinaisons de frappes sont possibles ! Par exemple, j'ai remplacé `{TAB}` par `{ENTER}{DELAY 1500}`. Cette séquence est très pratique sur Google, où le mot de passe n'est accessible qu'après avoir entré l'identifiant, d'où le délai de 1500 ms.
-![image d'un exemple de séquence Auto-Type](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/autotype.png)
+![image d'un exemple de séquence Auto-Type](/UtilisationAvanc%C3%A9eKeePass/autotype.png)
 
 ### Date d'expiration :
 
 KeePass permet de définir une date d'expiration pour chaque mot de passe ou groupe, vous rappelant ainsi de les mettre à jour régulièrement pour plus de sécurité.
 
 1. Double-cliquez sur l'entrée concernée, activez l'expiration en bas à gauche de la fenêtre, puis sélectionnez une date.
-![image de l'activation d'une expiration](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationentr%C3%A9e2.png)
+![image de l'activation d'une expiration](/UtilisationAvanc%C3%A9eKeePass/expirationentr%C3%A9e2.png)
 
 - Ou choisissez un délai d'expiration.
-![image de l'édition d'un délai d'expiration](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationentr%C3%A9e3.png)
+![image de l'édition d'un délai d'expiration](/UtilisationAvanc%C3%A9eKeePass/expirationentr%C3%A9e3.png)
 
 - Lorsque l'entrée sera expirée, KeePass vous le signalera.
-![image d'une entrée expirée](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/ExpirationEntr%C3%A9e4.png)
+![image d'une entrée expirée](/UtilisationAvanc%C3%A9eKeePass/ExpirationEntr%C3%A9e4.png)
 
 2. Vous pouvez choisir une date d'expiration pour un groupe en faisant un clic droit dessus, "Éditer un groupe", et dans l'onglet "Général", en bas à gauche, cochez la case "Expiration". Choisissez une date de la même façon que pour les entrées, ou vous pouvez la définir directement lors de sa création.
 
-![image de l'expiration d'un groupe](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationgroupe.png)
+![image de l'expiration d'un groupe](/UtilisationAvanc%C3%A9eKeePass/expirationgroupe.png)
 
 ### [Plug-ins](https://keepass.info/plugins.html#browserimporter) :
 
 Les plug-ins ajoutent de nouvelles fonctionnalités à KeePass en fonction de vos besoins. Par exemple, le plug-in ["KeePassBrowserImporter"](https://keepass.info/plugins.html#browserimporter) permet d'importer vos mots de passe depuis vos navigateurs.
 
 1. Cliquez sur le lien ci-dessus, installez le plug-in et copiez-le à la racine du dossier KeePass (par défaut : `C:\Program Files\KeePass Password Safe 2`).
-![image de l'installation du plug-in](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin.png)
+![image de l'installation du plug-in](/UtilisationAvanc%C3%A9eKeePass/plugin.png)
 
 2. Pour l'utiliser, cliquez sur Fichier, puis sur Importer.
-![image du menu d'importation](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin2.png)
+![image du menu d'importation](/UtilisationAvanc%C3%A9eKeePass/plugin2.png)
 
 3. Descendez tout en bas dans la section "Navigateur" et choisissez "Generic Browser Importer".
-![image de l'importateur de navigateur](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin3.png)
+![image de l'importateur de navigateur](/UtilisationAvanc%C3%A9eKeePass/plugin3.png)
 
 4. Sélectionnez votre navigateur, vérifiez les options (en particulier si un mot de passe est requis), et cliquez sur "Start".
-![image du lancement de l'importation](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/plugin4.png)
+![image du lancement de l'importation](/UtilisationAvanc%C3%A9eKeePass/plugin4.png)
 ---
 
 # FAQ - KeePass
