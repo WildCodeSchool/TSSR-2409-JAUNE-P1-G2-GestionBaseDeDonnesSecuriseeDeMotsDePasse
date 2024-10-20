@@ -42,28 +42,29 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 
 	![vmname](/Install%20Server/vmname.png)
 
+
 - Ne surtout **PAS** ajouter de CDRom d'installation à cette étape et laisser les paramètres de l'onglet "unattended install" par défaut ;
 - Ajouter un total de **2 CPU** et minimum **2 Go de RAM** ;
 
- 	![vmcpu](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcpu.png)
+ 	![vmcpu](/Install%20Server/vmcpu.png)
 
 - Configurer le stockage sur un minimum de **40 Go** ;
 
-	![vmstock](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmstock.png)
+	![vmstock](/Install%20Server/vmstock.png)
 
 - Valider puis aller dans la configuration de la machine virtuelle.
 - Dans l'onglet Stockage, ajouter le .iso correspondant au CDRom d'installation de **Windows Server 2022** ;
 
-	![vmcd](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmcd.png)
+	![vmcd](/Install%20Server/vmcd.png)
 
 - Dans l'onglet Réseau, ajouter, en plus de l'adaptateur réseau NAT, un deuxième **adaptateur en Réseau interne**, connecté au *même réseau interne* que les futures VMs Clients.
 
-	![vmnet](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/cfae510c04c9086c0ad7a122a2b9b60daf664200/Install%20Server/vmnet.png)
+	![vmnet](h/Install%20Server/vmnet.png)
 
 ## Choix linguistiques
 
 ![TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/Install Server
-/choixlangue.png](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/choixlangue.png)
+/choixlangue.png](/Install%20Server/choixlangue.png)
 - Langage d'installation : English (U.S.)
 - Heure et devise : French (France)
 	- Attention : il y a plusieurs French, bien choisir celui de la France ;
@@ -72,7 +73,7 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 ## Lancer l'installation
 - Sélection du système d'exploitation :
 
-![[[Pasted image 20241009170739.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/choixos.png)
+![[[Pasted image 20241009170739.png]]](/Install%20Server/choixos.png)
 
  - Sélectionner la version Standard avec Expérience utilisateur (*Standard Evaluation (Desktop Experience)* - en anglais) puis cliquer sur Next ;
 	-  Nous ne sommes pas sur une configuration Datacenter et une interface graphique est préférable ;
@@ -81,14 +82,14 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 
 - Choisir le type d'installation : Custom
 
- ![[[Pasted image 20241009171918.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/typeinstall.png)
+ ![[[Pasted image 20241009171918.png]]](/Install%20Server/typeinstall.png)
 
 - Laisser la configuration par défaut et appuyer sur Next :
 
-  ![[[Pasted image 20241009172105.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/configstock.png)
+  ![[[Pasted image 20241009172105.png]]](h/Install%20Server/configstock.png)
 - Le système s'installe :
 
- ![[[Pasted image 20241009172140.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/install.png)
+ ![[[Pasted image 20241009172140.png]]](/Install%20Server/install.png)
 - Définition du mot de passe :
 	- Le nom d'utilisateur est obligatoirement : Administrator
 	- Définir le mot de passe par défaut : Azerty1*
@@ -96,53 +97,53 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 ## Configuration Serveur
 - Découverte de réseaux : confirmer la découverte de la machine par les autres machines du réseau ;
 
- ![[[Pasted image 20241009174703.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/net.png)
+ ![[[Pasted image 20241009174703.png]]](/Install%20Server/net.png)
 
 - Installation des Guest Additions :
 	- Dans l'onglet Périphériques de VirtualBox, insérer l'image CD des Additions invité ;
 
- ![[[Pasted image 20241009175000.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/addcd.png)
+ ![[[Pasted image 20241009175000.png]]](/Install%20Server/addcd.png)
 
 - Lancer VBoxWindowsAdditions.exe
 
-![[Pasted image 20241009175136.png](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/vboxadd.png)](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/57c4446bdaa3aa201edbf339984b736ad6cf6eef/Install%20Server/vboxadd.png)
+![[Pasted image 20241009175136.png](/Install%20Server/vboxadd.png)](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/57c4446bdaa3aa201edbf339984b736ad6cf6eef/Install%20Server/vboxadd.png)
 
 - Laisser toutes les configurations par défaut en appuyant sur Next jusqu'à l'installation des additions puis laisser le serveur redémarrer (Reboot now) avant de cliquer sur Finish ;
 
 - Désactivation du Pare-feu
 	- Après le redémarrage, se rendre dans l'onglet Local Server du Server Manager puis cliquer sur "Public : On, Private : On" :
 
- ![[[Pasted image 20241009175714.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/firewall.png)
+ ![[[Pasted image 20241009175714.png]]](/Install%20Server/firewall.png)
 
  - Successivement sur les pages "Domain network", "Private network" et "Public network", entrer et désactiver les pare-feu en passant le bouton sur Off
 
-  ![[[Pasted image 20241009180236.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/firedom.png)
+  ![[[Pasted image 20241009180236.png]]](/Install%20Server/firedom.png)
 
  - Jusqu'à atteindre cet état sur les trois pare-feu :
 
-![[[Pasted image 20241009180327.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/allfire.png)
+![[[Pasted image 20241009180327.png]]](/Install%20Server/allfire.png)
 
 - Activer la découverte de réseaux et le partage de fichiers :
 	- Dans la barre de recherche windows, rechercher "Manage advanced sharing settings" ;
 	- Pour chaque onglet "Private", "Guest or Public" et "All Networks", activer les boutons "Turn on network discovery" et "Turn on file and printer sharing" :
 
-![[[Pasted image 20241009180655.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/share.png)
+![[[Pasted image 20241009180655.png]]](/Install%20Server/share.png)
 
  - Puis cliquer sur "Save changes" ;
 
 - Configuration de la carte réseau :
 	- Avec la commande Windows+R, entrer "ncpa.cpl" pour ouvrir la modification des connecteurs réseaux :
 
-  ![[[Pasted image 20241009181031.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/ncpa.png)
+  ![[[Pasted image 20241009181031.png]]](/Install%20Server/ncpa.png)
 
 - Entrer dans les propriétés de la carte réseau connectée au réseau interne, ici la carte Ethernet 2 ;
 - Entrer dans les propriétés de la ligne "IPv4" :
  
-	![[[Pasted image 20241009181217.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/ipv4.png)
+	![[[Pasted image 20241009181217.png]]](/Install%20Server/ipv4.png)
 
  - Et définir l'adresse IP en 172.16.10.10 et le masque de sous-réseau en 255.255.255.0 :
 
-  ![[[Pasted image 20241009181307.png]]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/eae98cc50b090aae0a14f00268cf52440ff07e70/Install%20Server/address.png)
+  ![[[Pasted image 20241009181307.png]]](/Install%20Server/address.png)
 
 - Redémarrer une dernière fois la machine pour prendre en compte tous les changements effectués.
 
@@ -151,22 +152,22 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 
 1. Dans le menu Manage du Gestionnaire de serveur, sélectionnez **Add Roles and Features**.
 
-![manager](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/manager.png)
+![manager](/Install%20Server/manager.png)
 
 2. Cliquez sur **Next** sur l’écran de bienvenue.
 3. Sur **Installation Type** , sélectionnez **Role-based or feature-based installation**, puis cliquez sur **Next**.
 
-![installtype](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/installtype.png)
+![installtype](/Install%20Server/installtype.png)
 
 4. Assurez-vous que le serveur cible approprié est sélectionné, puis cliquez sur **Next**.
 5. Développez **File and Storage Services**, puis développez **File and iSCSI Services**.
 6. Sélectionnez **Server for NFS**.
 
-![roles](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/roles.png)
+![roles](/Install%20Server/roles.png)
 
 7. Cliquez sur **Add Features** dans la fenêtre d’affichage qui s’affiche, puis cliquez sur **Next** pour continuer.
 
-![ServerforNFS](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/serverfornfs.png)
+![ServerforNFS](/Install%20Server/serverfornfs.png)
 
 8. Cliquez à nouveau sur **Next** sur l’écran Features.
 9. Cliquez sur **Install** sur l’écran Confirmation pour commencer l’installation.
@@ -179,11 +180,11 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 	- Pensez à bien noter le chemin réseau, il servira par la suite pour les clients ;
 - Cliquer sur **Share** ;
 
-![share](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/share.png)
+![share](/Install%20Server/share.png)
 
 - Modifier les droits *Everyone* sur **Read** ;
 
-![rights](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/bb76ad95af585767bc620bc8eb0125dd5bd06657/Install%20Server/rights.png)
+![rights](/Install%20Server/rights.png)
 
 - Votre machine est prête à être mise en réseau. Dans les étapes suivantes, nous installerons le logiciel KeePass et détaillerons le partage de fichier nécessaire pour un accès client.
 
@@ -192,6 +193,7 @@ En plus des prérequis matériels et logiciels, vous devrez aussi réfléchir à
 
 
 ![[langue.png]](/image%20install%20win%2010/langue.png)
+
 
 - Une fois que le PC démarre, la première étape consiste à choisir vos préférences linguistiques.
 - Puis cliquez sur installer maintenant.
@@ -545,4 +547,3 @@ Oui. KeePass prend en charge tous les thèmes système, y compris les thèmes so
 - Sous Windows 11, un thème (sombre) peut être sélectionné dans le Paramètres Windows → 'Accessibilité' → 'Thèmes de contraste'.
 - Sous Windows 10, un thème (sombre) peut être sélectionné dans le Paramètres Windows → 'Facilité d'accès' → 'Contraste élevé'.
 - Sous Windows 7, 8 et 8.1, un thème (sombre) peut être sélectionné dans le Panneau de configuration Windows → 'Apparence et personnalisation' → 'Personnalisation'.
-
