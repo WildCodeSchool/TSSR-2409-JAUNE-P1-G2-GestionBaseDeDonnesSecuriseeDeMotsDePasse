@@ -2,41 +2,41 @@
 
 ## 1. Créer une nouvelle base de données
 
-![[etape 1]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/1.%20Cr%C3%A9er%20une%20nouvelle%20base%20de%20donn%C3%A9es.png)
+![[etape 1]](/Utilisation%20de%20base%20de%20Keepass/1.%20Cr%C3%A9er%20une%20nouvelle%20base%20de%20donn%C3%A9es.png)
 
 - **Étape 1** : Ouvrez Keepass et cliquez sur "Fichier" dans le menu, puis choisissez "Nouveau..." pour créer une nouvelle base de données.
 - **Étape 2** : Choisissez l'emplacement où vous voulez sauvegarder votre fichier de base de données (.kdbx).
 
 ## 2. Définir un mot de passe pour la base de données
 
-![[etape 2]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/2.%20D%C3%A9finir%20un%20mot%20de%20passe%20pour%20la%20base%20de%20donn%C3%A9es.png)
+![[etape 2]](/Utilisation%20de%20base%20de%20Keepass/2.%20D%C3%A9finir%20un%20mot%20de%20passe%20pour%20la%20base%20de%20donn%C3%A9es.png)
 
 - **Étape 3** : Entrez un mot de passe principal fort pour protéger la base de données. Assurez-vous qu'il est difficile à deviner.
 - **Conseil** : Utilisez une combinaison de lettres, chiffres et symboles.
 
 ## 3. Ajouter une nouvelle entrée
 
-![[etape 3]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/3.%20Ajouter%20une%20nouvelle%20entr%C3%A9e%20(mot%20de%20passe).png)
+![[etape 3]](/Utilisation%20de%20base%20de%20Keepass/3.%20Ajouter%20une%20nouvelle%20entr%C3%A9e%20(mot%20de%20passe).png)
 
 - **Étape 4** : Après avoir créé la base de données, cliquez sur "Ajouter une entrée" pour ajouter un nouveau mot de passe.
 - **Étape 5** : Remplissez les champs comme "Nom d'utilisateur", "Mot de passe", et "URL". Vous pouvez également ajouter des notes.
 
 ## 4. Sauvegarder la base de données
 
-![[etape 4]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/4.%20Sauvegarder%20la%20base%20de%20donn%C3%A9es.png)
+![[etape 4]](/Utilisation%20de%20base%20de%20Keepass/4.%20Sauvegarder%20la%20base%20de%20donn%C3%A9es.png)
 
 - **Étape 6** : Cliquez sur "Fichier", puis "Enregistrer" pour sauvegarder les modifications dans votre base de données.
 
 ## 5. Ouvrir une base de données existante
 
-![[etape 5]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/5.%20Ouvrir%20une%20bdd.png)
+![[etape 5]](/Utilisation%20de%20base%20de%20Keepass/5.%20Ouvrir%20une%20bdd.png)
 
 - **Étape 7** : KeePass ouvrira la dernière base de données utilisée mais pour ouvrir une autre base de données existante, cliquez sur "Fichier", "Ouvrir", et sélectionnez votre fichier .kdbx.
 - **Étape 8** : Entrez votre mot de passe principal pour déverrouiller la base de données.
 
 ## 6. Générer un mot de passe sécurisé
 
-![[etape 6]](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/856cfca67b4ef3b0460566e27f85a29fc9309de1/Utilisation%20de%20base%20de%20Keepass/6.%20G%C3%A9n%C3%A9rer%20un%20mot%20de%20passe%20s%C3%A9curis%C3%A9.png)
+![[etape 6]](/Utilisation%20de%20base%20de%20Keepass/6.%20G%C3%A9n%C3%A9rer%20un%20mot%20de%20passe%20s%C3%A9curis%C3%A9.png)
 
 - **Étape 9** : Cliquez sur "Outils", puis "Générateur de mots de passe" pour créer un mot de passe fort.
 - **Étape 10** : Sélectionnez les critères du mot de passe (longueur, lettres, chiffres, symboles, etc.).
@@ -54,7 +54,8 @@ L'utilisation des fonctionnalités avancées de KeePass permet de gagner un temp
 4. **Ctrl + Alt + A** : Le plus utile de tous. Lors de la connexion à un site, placez le curseur dans le champ "identifiant" et cette commande saisira automatiquement vos identifiants de connexion avec une grande rapidité.
 
 Certains raccourcis peuvent être personnalisés dans les options du logiciel.
-![image des raccourcis clavier](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/raccourcis.png)
+![image des raccourcis clavier](/UtilisationAvancéeKeePass/raccourcis.png)
+
 
 ### [Auto-Type](https://keepass.info/help/base/autotype.html) : 
 
@@ -81,6 +82,7 @@ KeePass permet de définir une date d'expiration pour chaque mot de passe ou gro
 ![image d'une entrée expirée](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/ExpirationEntr%C3%A9e4.png)
 
 2. Vous pouvez choisir une date d'expiration pour un groupe en faisant un clic droit dessus, "Éditer un groupe", et dans l'onglet "Général", en bas à gauche, cochez la case "Expiration". Choisissez une date de la même façon que pour les entrées, ou vous pouvez la définir directement lors de sa création.
+
 ![image de l'expiration d'un groupe](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P1-G2-GestionBaseDeDonnesSecuriseeDeMotsDePasse/blob/A-verifier/UtilisationAvanc%C3%A9eKeePass/expirationgroupe.png)
 
 ### [Plug-ins](https://keepass.info/plugins.html#browserimporter) :
